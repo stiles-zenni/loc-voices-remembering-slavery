@@ -27,6 +27,10 @@
     return h ? `${h}:${String(m).padStart(2, '0')}:${sec}` : `${m}:${sec}`;
   };
   const now = () => (parts[cur]?.offset ?? 0) + audio.currentTime;
+  // Live, the audio streams from the Library of Congress; in local development it comes from
+  // library/audio (add ?remote=1 locally to test the Library's copies).
+  const LOCAL = ['localhost', '127.0.0.1'].includes(location.hostname) && !new URLSearchParams(location.search).has('remote');
+  const srcOf = p => (LOCAL ? p.audio : p.remoteAudio);
 
   // Last phrase whose start is <= t.
   function phraseAt(t) {
@@ -109,7 +113,7 @@
       preloaded = cur + 1;
       const warm = new Audio();
       warm.preload = 'auto';
-      warm.src = parts[cur + 1].audio;
+      warm.src = srcOf(parts[cur + 1]);
     }
   }
 
@@ -123,7 +127,7 @@
   function loadPart(k, at, play) {
     switching = play;
     cur = k;
-    audio.src = parts[k].audio;
+    audio.src = srcOf(parts[k]);
     audio.addEventListener('loadedmetadata', () => {
       audio.currentTime = Math.min(at, audio.duration || at);
       if (play) audio.play().finally(() => { switching = false; });
@@ -231,6 +235,8 @@
       $('intro-approx').hidden = !d.approximate;
       $('intro-source').textContent = `${d.title}.`;
       $('intro-link').href = parts[0].locUrl;
+      $('intro-credit').textContent = d.credit;
+      for (const a of document.querySelectorAll('.transcript-link')) a.href = `read/${encodeURIComponent(d.id)}.html`;
       $('total').textContent = fmt(d.duration);
       scrub.setAttribute('aria-valuemax', Math.floor(d.duration));
       if (d.next) {

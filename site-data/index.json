@@ -17,7 +17,8 @@
    ],
    "duration": 2344.51,
    "parts": 8,
-   "approximate": true
+   "approximate": true,
+   "credit": "American Dialect Society Collection, 1931-1937 (AFC 1984/011), American Folklife Center, Library of Congress"
   },
   {
    "id": "wallace-quarterman-1935",
@@ -33,7 +34,8 @@
    ],
    "duration": 553.61,
    "parts": 2,
-   "approximate": false
+   "approximate": false,
+   "credit": "Alan Lomax, Zora Neale Hurston, and Mary Elizabeth Barnicle Expedition Collection (AFC 1935/001), American Folklife Center, Library of Congress"
   },
   {
    "id": "unidentified-petersburg-1937",
@@ -47,7 +49,8 @@
    ],
    "duration": 74.79,
    "parts": 1,
-   "approximate": true
+   "approximate": true,
+   "credit": "Hampton Institute Duplication Project (AFC 1948/015), American Folklife Center, Library of Congress"
   },
   {
    "id": "joe-mcdonald-1940",
@@ -62,7 +65,8 @@
    ],
    "duration": 226.24,
    "parts": 2,
-   "approximate": false
+   "approximate": false,
+   "credit": "John and Ruby Lomax 1940 Southern States Recordings Collection (AFC 1940/003), American Folklife Center, Library of Congress"
   },
   {
    "id": "bob-ledbetter-1940",
@@ -77,7 +81,8 @@
    ],
    "duration": 669.42,
    "parts": 1,
-   "approximate": false
+   "approximate": false,
+   "credit": "John and Ruby Lomax 1940 Southern States Recordings Collection (AFC 1940/003), American Folklife Center, Library of Congress"
   },
   {
    "id": "alice-gaston-1941",
@@ -91,7 +96,8 @@
    ],
    "duration": 187.38,
    "parts": 1,
-   "approximate": false
+   "approximate": false,
+   "credit": "Robert Sonkin Alabama and New Jersey Collection, 1937-1941 (AFC 1941/018), American Folklife Center, Library of Congress"
   },
   {
    "id": "harriet-smith-1941",
@@ -105,7 +111,8 @@
    ],
    "duration": 2050.19,
    "parts": 4,
-   "approximate": false
+   "approximate": false,
+   "credit": "John Henry Faulk Recordings of Negro Religious Services (AFC 1941/016), American Folklife Center, Library of Congress"
   },
   {
    "id": "george-johnson-1941",
@@ -123,7 +130,8 @@
    ],
    "duration": 4689.55,
    "parts": 6,
-   "approximate": false
+   "approximate": false,
+   "credit": "Library of Congress and Fisk University Mississippi Delta Collection, 1941-1943 (AFC 1941/002), American Folklife Center, Library of Congress"
   },
   {
    "id": "isom-moseley-1941",
@@ -137,7 +145,8 @@
    ],
    "duration": 605.87,
    "parts": 1,
-   "approximate": false
+   "approximate": false,
+   "credit": "Robert Sonkin Alabama and New Jersey Collection, 1937-1941 (AFC 1941/018), American Folklife Center, Library of Congress"
   },
   {
    "id": "laura-smalley-1941",
@@ -151,7 +160,8 @@
    ],
    "duration": 2960.55,
    "parts": 5,
-   "approximate": false
+   "approximate": false,
+   "credit": "John Henry Faulk Recordings of Negro Religious Services (AFC 1941/016), American Folklife Center, Library of Congress"
   },
   {
    "id": "fountain-hughes-1949",
@@ -165,7 +175,8 @@
    ],
    "duration": 1752.1,
    "parts": 1,
-   "approximate": false
+   "approximate": false,
+   "credit": "Cyrus B. Koonce Collection (AFC 1950/037), American Folklife Center, Library of Congress"
   },
   {
    "id": "charlie-smith-1975",
@@ -179,7 +190,8 @@
    ],
    "duration": 1744.41,
    "parts": 1,
-   "approximate": false
+   "approximate": false,
+   "credit": "Elmer E. Sparks Interview with Charlie Smith (AFC 1975/023), American Folklife Center, Library of Congress"
   }
  ]
 }

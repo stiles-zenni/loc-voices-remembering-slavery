@@ -13,3 +13,6 @@ library/aligned/_console.txt
 # Original single-interview files (copies live in library/)
 /service-afc-*.mp3
 /afc1941016_afs05496a.xml
+
+# Netlify build output
+dist/

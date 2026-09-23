@@ -1,11 +1,12 @@
 // Build the site's data from the library: one contents file plus one file per interview,
 // with every part's phrases placed on a single continuous timeline.
 //
-//   node scripts/build-site.mjs
+//   node scripts/build-site.mjs           build site-data/ and read/ (transcript pages)
+//   node scripts/build-site.mjs --dist    also copy the public site into dist/ (Netlify publishes it)
 //
 // Reads library/manifest.json, library/aligned/*.json, library/aligned/_report.json and
-// library/glossary/glossary.json. Writes site-data/index.json, site-data/<sessionId>.json
-// and site-data/glossary.json.
+// library/glossary/glossary.json. Writes site-data/index.json, site-data/<sessionId>.json,
+// site-data/glossary.json and one static transcript page per interview in read/.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -33,6 +34,24 @@ const EDITORIAL = {
   'fountain-hughes-1949': { name: 'Fountain Hughes', with: ['Hermond Norwood'] },
   'charlie-smith-1975': { name: 'Charlie Smith', with: ['Elmer E. Sparks'] },
 };
+
+// Credit lines as the Library asks: source collection, collection number, repository.
+const COLLECTIONS = {
+  afc1984011: 'American Dialect Society Collection, 1931-1937',
+  afc1935001: 'Alan Lomax, Zora Neale Hurston, and Mary Elizabeth Barnicle Expedition Collection',
+  afc1948015: 'Hampton Institute Duplication Project',
+  afc1940003: 'John and Ruby Lomax 1940 Southern States Recordings Collection',
+  afc1941018: 'Robert Sonkin Alabama and New Jersey Collection, 1937-1941',
+  afc1941016: 'John Henry Faulk Recordings of Negro Religious Services',
+  afc1941002: 'Library of Congress and Fisk University Mississippi Delta Collection, 1941-1943',
+  afc1950037: 'Cyrus B. Koonce Collection',
+  afc1975023: 'Elmer E. Sparks Interview with Charlie Smith',
+};
+function credit(itemId) {
+  const key = itemId.split('_')[0];
+  const number = `AFC ${key.slice(3, 7)}/${key.slice(7)}`;
+  return `${COLLECTIONS[key] ?? 'Voices Remembering Slavery'} (${number}), American Folklife Center, Library of Congress`;
+}
 
 const roman = n => [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']]
   .reduce((acc, [v, s]) => { while (n >= v) { acc += s; n -= v; } return acc; }, '');
@@ -66,6 +85,7 @@ manifest.sessions.forEach((s, i) => {
   const entry = {
     id: s.id, numeral: roman(i + 1), name: ed.name, place: s.place, date: s.date, year: s.year,
     with: ed.with, duration: r2(offset), parts: parts.length, approximate: matchRate < APPROXIMATE_BELOW,
+    credit: credit(s.parts[0].itemId),
   };
   contents.push(entry);
   fs.writeFileSync(path.join(OUT, `${s.id}.json`), JSON.stringify({ ...entry, title: s.title, matchRate: r2(matchRate), partList: parts, phrases }));
@@ -118,3 +138,108 @@ if (fs.existsSync(GLOSSARY)) {
 }
 console.log(`wrote ${contents.length} interviews to ${path.relative(ROOT, OUT)}/`);
 for (const c of contents) console.log(`  ${c.numeral.padEnd(5)} ${c.name.padEnd(22)} ${Math.round(c.duration / 60)} min${c.approximate ? '  (approximate)' : ''}`);
+
+// ---------- Static transcript pages (read/<id>.html) ----------
+// The full text of each interview as plain HTML: for readers who can't or don't want to
+// listen, for screen readers, and for search engines. Each paragraph links to its moment.
+
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const clock = s => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+const listNames = n => (n.length < 3 ? n.join(' and ') : `${n.slice(0, -1).join(', ')} and ${n.at(-1)}`);
+
+function wordHtml(w) {
+  if (w.note) return `<span class="t-note">${/^\?{3}/.test(w.text) ? '[unclear]' : esc(w.text)}</span>`;
+  if (w.uncertain) return `<em class="t-guess">${esc(w.text)}</em>`;
+  return esc(w.text);
+}
+
+function head({ title, description }) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${esc(title)}</title>
+  <meta name="description" content="${esc(description)}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(description)}">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..500,0..100,0..1;1,9..144,300..500,0..100,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>`;
+}
+
+const READ = path.join(ROOT, 'read');
+fs.mkdirSync(READ, { recursive: true });
+for (const c of contents) {
+  const s = JSON.parse(fs.readFileSync(path.join(OUT, `${c.id}.json`), 'utf8'));
+  const listen = t => `../interview.html?id=${encodeURIComponent(c.id)}${t ? `&t=${r2(Math.max(0, t - 2))}` : ''}`;
+  const sides = s.partList.map((p, k) => {
+    // Merge consecutive phrases by the same speaker into one paragraph.
+    const turns = [];
+    for (const ph of s.phrases.filter(ph => ph.part === k)) {
+      const last = turns.at(-1);
+      if (last && last.speaker === ph.speaker) last.phrases.push(ph);
+      else turns.push({ speaker: ph.speaker, phrases: [ph] });
+    }
+    const body = turns.map(t => {
+      const at = t.phrases[0].start;
+      const text = t.phrases.map(ph => ph.words.map(wordHtml).join(' ')).join(' ');
+      return `      <div class="t-turn">
+        <a class="t-time" href="${listen(at)}" aria-label="Listen from ${clock(at - p.offset)}">${clock(at - p.offset)}</a>
+        <div>${t.speaker ? `<p class="t-speaker">${esc(t.speaker)}</p>` : ''}<p class="t-text">${text}</p></div>
+      </div>`;
+    }).join('\n');
+    return `    <section class="t-side" id="side-${k + 1}">
+      ${s.partList.length > 1 ? `<h2 class="gloss-group-title">Side ${k + 1} of ${s.partList.length}</h2>` : ''}
+${body}
+    </section>`;
+  }).join('\n');
+
+  const description = `Transcript of the interview with ${c.name}, ${c.place}, ${c.date}, from the Library of Congress's Voices Remembering Slavery collection.`;
+  fs.writeFileSync(path.join(READ, `${c.id}.html`), `${head({ title: `${c.name}: transcript · Visualizing Voices`, description })}
+<body class="contents-page">
+  <div class="paper" aria-hidden="true"></div>
+  <header class="masthead">
+    <span class="masthead-left"><a class="back" href="../index.html">← Contents</a><span class="masthead-title">Visualizing Voices</span></span>
+    <span class="masthead-sub">From the collections of the Library of Congress</span>
+  </header>
+  <main class="book">
+    <header class="book-head">
+      <p class="intro-kicker">Transcript · ${c.numeral}</p>
+      <h1 class="book-title">${esc(c.name)}</h1>
+      <p class="book-subtitle">${esc(c.place)}, ${esc(c.date)}</p>
+      ${c.with.length ? `<p class="t-with">With ${esc(listNames(c.with))}</p>` : ''}
+      <p class="t-actions"><a class="begin" href="${listen(0)}">Listen to the interview</a></p>
+    </header>
+    <section class="foreword foreword-note">
+      <p>${esc(s.title)}. The Library of Congress's transcript, which keeps the language of the recording. Times link to that moment in the audio. <span class="t-note">[unclear]</span> marks speech the transcriber could not make out; <em class="t-guess">italics</em>, their best guess.${c.approximate ? ' The timing for this recording is approximate.' : ''}</p>
+      <p>${esc(c.credit)}. <a href="${esc(s.partList[0].locUrl)}">View at the Library of Congress</a>.</p>
+    </section>
+${sides}
+    <footer class="colophon">
+      <a href="../index.html">Contents</a> · <a href="../glossary.html">Notes on language</a>
+      <p class="independent">An independent edition, not affiliated with or endorsed by the Library of Congress.</p>
+    </footer>
+  </main>
+</body>
+</html>
+`);
+}
+console.log(`read: ${contents.length} transcript pages`);
+
+// ---------- Package the public site for Netlify ----------
+
+if (process.argv.includes('--dist')) {
+  const DIST = path.join(ROOT, 'dist');
+  fs.rmSync(DIST, { recursive: true, force: true });
+  const files = ['index.html', 'interview.html', 'glossary.html', 'contents.js', 'player.js', 'glossary.js', 'styles.css', 'favicon.svg'];
+  fs.mkdirSync(DIST, { recursive: true });
+  for (const f of files) fs.copyFileSync(path.join(ROOT, f), path.join(DIST, f));
+  for (const dir of ['site-data', 'read']) fs.cpSync(path.join(ROOT, dir), path.join(DIST, dir), { recursive: true });
+  console.log(`dist: packaged ${files.length} files + site-data/ + read/`);
+}

@@ -1,0 +1,13 @@
+# Netlify builds the site data and transcript pages, then publishes dist/.
+# Audio is streamed from the Library of Congress, so nothing large is deployed.
+[build]
+  command = "node scripts/build-site.mjs --dist"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/site-data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
