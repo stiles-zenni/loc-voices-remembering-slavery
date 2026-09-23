@@ -1,0 +1,75 @@
+<!doctype html>
+<!--
+  Source for share.jpg, the image shown when the site is linked on social media or in chat.
+  Not published; re-render it with:
+    node scripts/serve.mjs   (then, in another terminal)
+    chrome --headless=new --hide-scrollbars --window-size=1200,630 --screenshot=share.png http://localhost:5173/share-card.html
+  then save share.png as share.jpg (JPEG, quality 90) to keep it small.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Share card</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    html, body { width: 1200px; height: 630px; margin: 0; overflow: hidden; }
+    .card {
+      position: relative;
+      box-sizing: border-box;
+      width: 1200px;
+      height: 630px;
+      padding: 64px 80px 60px;
+      display: flex;
+      flex-direction: column;
+    }
+    .kicker {
+      margin: 0;
+      font-size: 17px;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 9;
+    }
+    .speaker {
+      margin: auto 0 20px;
+      font-size: 17px;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 9;
+    }
+    .quote {
+      margin: 0;
+      max-width: 17ch;
+      font-size: 76px;
+      font-weight: 330;
+      line-height: 1.12;
+      letter-spacing: -0.012em;
+      color: var(--ink);
+    }
+    .quote .faint { color: var(--ink-faint); }
+    .foot {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: auto;
+      padding-top: 26px;
+      border-top: 1px solid var(--hairline);
+    }
+    .title { margin: 0; font-size: 34px; font-weight: 340; color: var(--ink); }
+    .sub { margin: 0; font-size: 21px; font-style: italic; color: var(--ink-soft); }
+  </style>
+</head>
+<body>
+  <div class="paper" aria-hidden="true"></div>
+  <div class="card">
+    <p class="kicker">Visualizing Voices</p>
+    <p class="speaker">Harriet Smith, 1941</p>
+    <p class="quote">Well, I was about thirteen years old <span class="faint">at the break up.</span></p>
+    <div class="foot">
+      <p class="title">Voices Remembering Slavery</p>
+      <p class="sub">Interviews from the Library of Congress, word by word</p>
+    </div>
+  </div>
+</body>
+</html>

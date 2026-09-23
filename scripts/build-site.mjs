@@ -164,11 +164,12 @@ function head({ title, description }) {
   <meta property="og:type" content="article">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://voices-remembering-slavery.netlify.app/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="“Well, I was about thirteen years old at the break up.” Harriet Smith, 1941. Voices Remembering Slavery.">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..500,0..100,0..1;1,9..144,300..500,0..100,0..1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
 </head>`;
 }
@@ -240,9 +241,9 @@ console.log(`read: ${contents.length} transcript pages`);
 if (process.argv.includes('--dist')) {
   const DIST = path.join(ROOT, 'dist');
   fs.rmSync(DIST, { recursive: true, force: true });
-  const files = ['index.html', 'interview.html', 'glossary.html', 'about.html', 'contents.js', 'player.js', 'glossary.js', 'styles.css', 'favicon.svg'];
+  const files = ['index.html', 'interview.html', 'glossary.html', 'about.html', 'contents.js', 'player.js', 'glossary.js', 'styles.css', 'favicon.svg', 'share.jpg'];
   fs.mkdirSync(DIST, { recursive: true });
   for (const f of files) fs.copyFileSync(path.join(ROOT, f), path.join(DIST, f));
-  for (const dir of ['site-data', 'read']) fs.cpSync(path.join(ROOT, dir), path.join(DIST, dir), { recursive: true });
-  console.log(`dist: packaged ${files.length} files + site-data/ + read/`);
+  for (const dir of ['site-data', 'read', 'fonts']) fs.cpSync(path.join(ROOT, dir), path.join(DIST, dir), { recursive: true });
+  console.log(`dist: packaged ${files.length} files + site-data/ + read/ + fonts/`);
 }

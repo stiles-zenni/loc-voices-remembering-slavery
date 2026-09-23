@@ -45,7 +45,7 @@ The Library's transcripts don't say *when* each word is spoken, so the timing is
 2. **Align** (`scripts/align.mjs`) has speech recognition listen to each recording, using OpenAI's Whisper models run with [whisper.cpp](https://github.com/ggml-org/whisper.cpp). It runs the `medium.en` model, with `base.en` as a fallback in quiet, noisy stretches. Whisper's own transcription is used only for timing and is never shown. Its words are matched to the Library's transcript with a global sequence alignment (Needleman–Wunsch, tolerant of misspellings and dialect spellings), and matched words take Whisper's timestamps. Unmatched words are spaced evenly between matched neighbours. About two thirds of words match directly across this batch. Interviews under 50% are marked *sync approximate*.
 3. **Build** (`scripts/build-site.mjs`) joins each interview's sides onto one continuous timeline, adds the credit lines and glossary moments, and renders the static transcript pages.
 
-The site itself is plain HTML, CSS and JavaScript, with no framework and nothing to install to view it.
+The site itself is plain HTML, CSS and JavaScript, with no framework and nothing to install to view it. It loads nothing from third parties except the audio, which comes from the Library: the typeface, [Fraunces](https://github.com/undercasetype/Fraunces), is served from `fonts/` under the SIL Open Font License, and there are no analytics or cookies.
 
 ## Running it locally
 
@@ -90,6 +90,8 @@ This aligns every recording that hasn't been done yet, and can be re-run if inte
 |---|---|
 | `index.html`, `interview.html`, `glossary.html`, `about.html` | The pages |
 | `contents.js`, `player.js`, `glossary.js`, `styles.css` | Page scripts and styles |
+| `fonts/` | Fraunces, with its license (`OFL.txt`) |
+| `share.jpg`, `share-card.html` | The image shown when the site is linked, and its source |
 | `library/manifest.json` | The interviews in this edition, their sides and Library links |
 | `library/transcripts/` | The Library's transcript XML, as downloaded |
 | `library/aligned/` | Timed transcripts, plus `_report.json` |
@@ -115,4 +117,4 @@ The recordings contain period language, including slurs, reproduced as recorded.
 
 ## License
 
-The site's code (the pages, scripts and styles) is released under the [MIT License](LICENSE). The license does not cover the recordings or transcripts: those are the Library of Congress's, and the Library's own terms above apply.
+The site's code (the pages, scripts and styles) is released under the [MIT License](LICENSE). The Fraunces typeface in `fonts/` is under the [SIL Open Font License](fonts/OFL.txt). The license does not cover the recordings or transcripts: those are the Library of Congress's, and the Library's own terms above apply.
