@@ -6,6 +6,8 @@
 
 [build.environment]
   NODE_VERSION = "22"
+  # The build needs no packages; skip the speech-recognition tools used only for re-syncing.
+  NPM_FLAGS = "--omit=dev"
 
 [[headers]]
   for = "/site-data/*"

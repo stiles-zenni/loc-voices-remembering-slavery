@@ -4,9 +4,10 @@
   "type": "module",
   "scripts": {
     "align": "node scripts/align.mjs",
+    "build": "node scripts/build-site.mjs --dist",
     "serve": "node scripts/serve.mjs"
   },
-  "dependencies": {
+  "devDependencies": {
     "@huggingface/transformers": "^3.7.0",
     "mpg123-decoder": "^1.0.0"
   }
