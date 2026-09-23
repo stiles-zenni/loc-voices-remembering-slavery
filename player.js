@@ -230,7 +230,7 @@
       $('masthead-who').textContent = `${d.name} · ${when}`;
       $('intro-kicker').textContent = `Voices Remembering Slavery · ${d.numeral}`;
       $('intro-title').textContent = d.name;
-      $('intro-meta').textContent = when + (parts.length > 1 ? ` · ${parts.length} sides` : '');
+      $('intro-meta').textContent = when + (parts.length > 1 ? ` · ${parts.length} sides` : '');
       $('intro-with').textContent = d.with.length ? `With ${listNames(d.with)}` : '';
       $('intro-approx').hidden = !d.approximate;
       $('intro-source').textContent = `${d.title}.`;

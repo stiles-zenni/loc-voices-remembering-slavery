@@ -791,3 +791,32 @@ body.ended .stage { opacity: 0; }
 .about-list li::marker { color: var(--accent); }
 /* The closing notes are not a label/text row; keep them stacked at every width. */
 .intro-details > .intro-independent { display: block; }
+
+/* ---------- Mobile fixes ---------- */
+
+/* The paper is one fixed layer sized to the *large* viewport, so it doesn't shift as a
+   phone's address bar slides in and out on scroll or load. */
+body, body.contents-page { background: var(--paper-mid); background-attachment: scroll; }
+.paper {
+  inset: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100lvh;
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 38%, rgba(250, 248, 244, 0.85) 0%, rgba(250, 248, 244, 0) 70%),
+    radial-gradient(ellipse 120% 100% at 50% 45%, transparent 55%, rgba(120, 110, 98, 0.22) 100%),
+    linear-gradient(180deg, var(--paper-hi) 0%, var(--paper-mid) 55%, var(--paper-lo) 100%);
+}
+
+@media (max-width: 640px) {
+  /* Interview page: one line across the top (back link, side marker); the name and
+     place are on the intro card. */
+  body:not(.contents-page) .masthead { flex-direction: row; justify-content: space-between; align-items: baseline; }
+  body:not(.contents-page) .masthead-left { flex-direction: row; }
+  body:not(.contents-page) .masthead-title,
+  body:not(.contents-page) #masthead-who { display: none; }
+  /* Start the intro card below that line rather than centring it, so long cards scroll. */
+  .intro { justify-content: flex-start; padding-top: 5.5rem; padding-bottom: 3rem; }
+}
