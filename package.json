@@ -1,0 +1,13 @@
+{
+  "name": "visualizing-voices",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "align": "node scripts/align.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.0",
+    "mpg123-decoder": "^1.0.0"
+  }
+}

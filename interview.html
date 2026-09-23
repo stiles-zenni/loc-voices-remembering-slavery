@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visualizing Voices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..500,0..100,0..1;1,9..144,300..500,0..100,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="paper" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <span class="masthead-left"><a class="back" href="index.html">← Contents</a><span class="masthead-title">Visualizing Voices</span></span>
+    <span class="masthead-sub"><span id="masthead-who"></span><span class="side" id="side"></span></span>
+  </header>
+
+  <main class="stage" aria-live="off">
+    <p class="speaker" id="speaker"></p>
+    <div class="lines" id="lines"></div>
+  </main>
+
+  <section class="intro" id="intro">
+    <p class="intro-kicker" id="intro-kicker">Voices Remembering Slavery</p>
+    <h1 class="intro-title" id="intro-title"></h1>
+    <p class="intro-meta" id="intro-meta"></p>
+    <p class="intro-with" id="intro-with"></p>
+    <p class="intro-approx" id="intro-approx" hidden>Sync approximate — the recording is difficult in places, so the words may drift from the voice.</p>
+    <button class="begin" id="begin" type="button">Begin listening</button>
+    <p class="intro-note"><span id="intro-source"></span> <a id="intro-link" href="#" target="_blank" rel="noopener">View at the Library of Congress</a><br>Transcript: Library of Congress. Contains period language, reproduced as recorded.</p>
+  </section>
+
+  <section class="ending" id="ending" hidden>
+    <p class="intro-kicker">End of interview</p>
+    <a class="next" id="next" href="#">
+      <span class="next-label">Next</span>
+      <span class="next-name" id="next-name"></span>
+      <span class="next-meta" id="next-meta"></span>
+    </a>
+    <a class="back-contents" href="index.html">Back to contents</a>
+  </section>
+
+  <footer class="controls" id="controls">
+    <button class="play" id="play" type="button" aria-label="Play">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-play" d="M8 5.5v13l10.5-6.5z"/><g class="i-pause"><rect x="7" y="5.5" width="3.2" height="13" rx="1"/><rect x="13.8" y="5.5" width="3.2" height="13" rx="1"/></g></svg>
+    </button>
+    <span class="time" id="elapsed">0:00</span>
+    <div class="scrub" id="scrub" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
+      <div class="scrub-track" id="track"><div class="scrub-fill" id="fill"></div></div>
+    </div>
+    <span class="time" id="total">0:00</span>
+  </footer>
+
+  <audio id="audio" preload="auto"></audio>
+  <script src="player.js"></script>
+</body>
+</html>

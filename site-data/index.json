@@ -1,0 +1,185 @@
+{
+ "collection": "Voices Remembering Slavery: Freed People Tell Their Stories",
+ "collectionUrl": "https://www.loc.gov/collections/voices-remembering-slavery/",
+ "source": "American Folklife Center, Library of Congress",
+ "interviews": [
+  {
+   "id": "phoebe-boyd-1935",
+   "numeral": "I",
+   "name": "Phoebe Boyd",
+   "place": "Dunnsville, Virginia",
+   "date": "1935",
+   "year": 1935,
+   "with": [
+    "Archibald A. Hill",
+    "Guy S. Lowman",
+    "Mrs. John F. Ware"
+   ],
+   "duration": 2344.51,
+   "parts": 8,
+   "approximate": true
+  },
+  {
+   "id": "wallace-quarterman-1935",
+   "numeral": "II",
+   "name": "Wallace Quarterman",
+   "place": "Fort Frederica, St. Simons Island, Georgia",
+   "date": "June 1935",
+   "year": 1935,
+   "with": [
+    "Zora Neale Hurston",
+    "Alan Lomax",
+    "Mary Elizabeth Barnicle"
+   ],
+   "duration": 553.61,
+   "parts": 2,
+   "approximate": false
+  },
+  {
+   "id": "unidentified-petersburg-1937",
+   "numeral": "III",
+   "name": "Unidentified speakers",
+   "place": "Petersburg, Virginia",
+   "date": "ca. 1937-1940",
+   "year": 1937,
+   "with": [
+    "Roscoe E. Lewis"
+   ],
+   "duration": 74.79,
+   "parts": 1,
+   "approximate": true
+  },
+  {
+   "id": "joe-mcdonald-1940",
+   "numeral": "IV",
+   "name": "Joe McDonald",
+   "place": "Livingston, Alabama",
+   "date": "1940",
+   "year": 1940,
+   "with": [
+    "John A. Lomax",
+    "Ruby T. Lomax"
+   ],
+   "duration": 226.24,
+   "parts": 2,
+   "approximate": false
+  },
+  {
+   "id": "bob-ledbetter-1940",
+   "numeral": "V",
+   "name": "Bob Ledbetter",
+   "place": "Oil City, Louisiana",
+   "date": "1940",
+   "year": 1940,
+   "with": [
+    "John A. Lomax",
+    "Ruby T. Lomax"
+   ],
+   "duration": 669.42,
+   "parts": 1,
+   "approximate": false
+  },
+  {
+   "id": "alice-gaston-1941",
+   "numeral": "VI",
+   "name": "Alice Gaston",
+   "place": "Gee's Bend, Alabama",
+   "date": "1941",
+   "year": 1941,
+   "with": [
+    "Robert Sonkin"
+   ],
+   "duration": 187.38,
+   "parts": 1,
+   "approximate": false
+  },
+  {
+   "id": "harriet-smith-1941",
+   "numeral": "VII",
+   "name": "Harriet Smith",
+   "place": "Hempstead, Texas",
+   "date": "1941",
+   "year": 1941,
+   "with": [
+    "John Henry Faulk"
+   ],
+   "duration": 2050.19,
+   "parts": 4,
+   "approximate": false
+  },
+  {
+   "id": "george-johnson-1941",
+   "numeral": "VIII",
+   "name": "George Johnson",
+   "place": "Mound Bayou, Mississippi",
+   "date": "September 1941",
+   "year": 1941,
+   "with": [
+    "Charles S. Johnson",
+    "Lewis Wade Jones",
+    "John W. Work",
+    "Alan Lomax",
+    "Elizabeth Lyttleton Sturz"
+   ],
+   "duration": 4689.55,
+   "parts": 6,
+   "approximate": false
+  },
+  {
+   "id": "isom-moseley-1941",
+   "numeral": "IX",
+   "name": "Isom Moseley",
+   "place": "Gee's Bend, Alabama",
+   "date": "1941",
+   "year": 1941,
+   "with": [
+    "Robert Sonkin"
+   ],
+   "duration": 605.87,
+   "parts": 1,
+   "approximate": false
+  },
+  {
+   "id": "laura-smalley-1941",
+   "numeral": "X",
+   "name": "Laura Smalley",
+   "place": "Hempstead, Texas",
+   "date": "1941",
+   "year": 1941,
+   "with": [
+    "John Henry Faulk"
+   ],
+   "duration": 2960.55,
+   "parts": 5,
+   "approximate": false
+  },
+  {
+   "id": "fountain-hughes-1949",
+   "numeral": "XI",
+   "name": "Fountain Hughes",
+   "place": "Baltimore, Maryland",
+   "date": "June 11, 1949",
+   "year": 1949,
+   "with": [
+    "Hermond Norwood"
+   ],
+   "duration": 1752.1,
+   "parts": 1,
+   "approximate": false
+  },
+  {
+   "id": "charlie-smith-1975",
+   "numeral": "XII",
+   "name": "Charlie Smith",
+   "place": "Bartow, Florida",
+   "date": "March 17, 1975",
+   "year": 1975,
+   "with": [
+    "Elmer E. Sparks"
+   ],
+   "duration": 1744.41,
+   "parts": 1,
+   "approximate": false
+  }
+ ]
+}

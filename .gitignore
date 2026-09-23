@@ -1,0 +1,15 @@
+# Re-creatable or large: reinstall / re-download / re-transcribe instead of versioning.
+node_modules/
+# whisper.cpp GPU build + models (~2.35 GB); see scripts/align.mjs
+tools/
+# MP3s from loc.gov; node scripts/fetch-library.mjs
+library/audio/
+# Raw Whisper output cache; node scripts/align.mjs --force
+library/asr/
+library/aligned/_run.log
+library/aligned/_console.txt
+*.part
+
+# Original single-interview files (copies live in library/)
+/service-afc-*.mp3
+/afc1941016_afs05496a.xml

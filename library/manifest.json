@@ -1,0 +1,631 @@
+{
+  "collection": "Voices Remembering Slavery: Freed People Tell Their Stories",
+  "collectionUrl": "https://www.loc.gov/collections/voices-remembering-slavery/",
+  "source": "American Folklife Center, Library of Congress",
+  "batch": "batch 1: every session containing a tier-1 (least difficult) file, with all of its parts",
+  "speakerAliases": {
+    "Charles S. Johnson": "Dr. Charles S. Johnson",
+    "George Johnson": "Mr. George Johnson",
+    "John Henry Faulks": "John Henry Faulk",
+    "John A. and Ruby T. Lomax": "John A. Lomax & Ruby T. Lomax",
+    "Guy Lowman": "Guy S. Lowman"
+  },
+  "noteLabels": [
+    "Note",
+    "Endnote"
+  ],
+  "sessions": [
+    {
+      "id": "phoebe-boyd-1935",
+      "title": "Interview with Aunt Phoebe Boyd, Dunnsville, Virginia, 1935",
+      "interviewee": "Aunt Phoebe Boyd",
+      "place": "Dunnsville, Virginia",
+      "date": "1935",
+      "year": 1935,
+      "partsTotal": 8,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Aunt Phoebe Boyd",
+        "Emily",
+        "Guy S. Lowman",
+        "Mrs. John Faulconer Ware",
+        "Archibald A. Hill"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1984011_afs25749a",
+          "part": 1,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25749a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25749/afc1984011_afs25749a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25749/afc1984011_afs25749a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25749/afc1984011_afs25749a.pdf",
+          "audioBytes": 8938219,
+          "transcriptWords": 908,
+          "unclearMarks": 15
+        },
+        {
+          "itemId": "afc1984011_afs25749b",
+          "part": 2,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25749b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25749/afc1984011_afs25749b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25749/afc1984011_afs25749b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25749/afc1984011_afs25749b.pdf",
+          "audioBytes": 9134497,
+          "transcriptWords": 745,
+          "unclearMarks": 14
+        },
+        {
+          "itemId": "afc1984011_afs25750a",
+          "part": 3,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25750a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25750/afc1984011_afs25750a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25750/afc1984011_afs25750a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25750/afc1984011_afs25750a.pdf",
+          "audioBytes": 8975777,
+          "transcriptWords": 871,
+          "unclearMarks": 9
+        },
+        {
+          "itemId": "afc1984011_afs25750b",
+          "part": 4,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25750b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25750/afc1984011_afs25750b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25750/afc1984011_afs25750b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25750/afc1984011_afs25750b.pdf",
+          "audioBytes": 7501089,
+          "transcriptWords": 991,
+          "unclearMarks": 2
+        },
+        {
+          "itemId": "afc1984011_afs25751a",
+          "part": 5,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25751a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25751/afc1984011_afs25751a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25751/afc1984011_afs25751a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25751/afc1984011_afs25751a.pdf",
+          "audioBytes": 10820317,
+          "transcriptWords": 1027,
+          "unclearMarks": 15
+        },
+        {
+          "itemId": "afc1984011_afs25751b",
+          "part": 6,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25751b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25751/afc1984011_afs25751b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25751/afc1984011_afs25751b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25751/afc1984011_afs25751b.pdf",
+          "audioBytes": 10500455,
+          "transcriptWords": 938,
+          "unclearMarks": 4
+        },
+        {
+          "itemId": "afc1984011_afs25752a",
+          "part": 7,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25752a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25752/afc1984011_afs25752a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25752/afc1984011_afs25752a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25752/afc1984011_afs25752a.pdf",
+          "audioBytes": 8560773,
+          "transcriptWords": 746,
+          "unclearMarks": 3
+        },
+        {
+          "itemId": "afc1984011_afs25752b",
+          "part": 8,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1984011_afs25752b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25752/afc1984011_afs25752b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25752/afc1984011_afs25752b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1984011/afc1984011_afs25752/afc1984011_afs25752b.pdf",
+          "audioBytes": 10532264,
+          "transcriptWords": 878,
+          "unclearMarks": 6
+        }
+      ]
+    },
+    {
+      "id": "wallace-quarterman-1935",
+      "title": "Interview with Wallace Quarterman, Fort Frederica, St. Simons Island, Georgia, June 1935",
+      "interviewee": "Wallace Quarterman",
+      "place": "Fort Frederica, St. Simons Island, Georgia",
+      "date": "June 1935",
+      "year": 1935,
+      "partsTotal": 2,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Wallace Quarterman",
+        "Zora Neale Hurston",
+        "Unidentified Woman Interviewer",
+        "Alan Lomax",
+        "Mary Elizabeth Barnicle"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1935001_afs00342a",
+          "part": 1,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1935001_afs00342a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1935001/afc1935001_afs00342/afc1935001_afs00342a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1935001/afc1935001_afs00342/afc1935001_afs00342a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1935001/afc1935001_afs00342/afc1935001_afs00342a.pdf",
+          "audioBytes": 7690671,
+          "transcriptWords": 751,
+          "unclearMarks": 5
+        },
+        {
+          "itemId": "afc1935001_afs00342b",
+          "part": 2,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1935001_afs00342b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1935001/afc1935001_afs00342/afc1935001_afs00342b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1935001/afc1935001_afs00342/afc1935001_afs00342b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1935001/afc1935001_afs00342/afc1935001_afs00342b.pdf",
+          "audioBytes": 6499976,
+          "transcriptWords": 1037,
+          "unclearMarks": 2
+        }
+      ]
+    },
+    {
+      "id": "unidentified-petersburg-1937",
+      "title": "Interview with unidentified former slaves from Virginia, Petersburg, Virginia, ca. 1937-1940",
+      "interviewee": "unidentified former slaves from Virginia",
+      "place": "Petersburg, Virginia",
+      "date": "ca. 1937-1940",
+      "year": 1937,
+      "partsTotal": 1,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Unidentified Woman Interviewer",
+        "Roscoe Lewis"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1948015_afs08301b",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1948015_afs08301b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1948015/afc1948015_afs08301/afc1948015_afs08301b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1948015/afc1948015_afs08301/afc1948015_afs08301b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1948015/afc1948015_afs08301/afc1948015_afs08301b.pdf",
+          "audioBytes": 2255599,
+          "transcriptWords": 284,
+          "unclearMarks": 2
+        }
+      ]
+    },
+    {
+      "id": "joe-mcdonald-1940",
+      "title": "Interview with Joe McDonald, Livingston, Alabama, 1940",
+      "interviewee": "Joe McDonald",
+      "place": "Livingston, Alabama",
+      "date": "1940",
+      "year": 1940,
+      "partsTotal": 2,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Unidentified Woman",
+        "Joe McDonald",
+        "John A. Lomax & Ruby T. Lomax",
+        "Ruby T. Lomax"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1940003_afs04033b",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1940003_afs04033b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs04033/afc1940003_afs04033b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs04033/afc1940003_afs04033b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs04033/afc1940003_afs04033b.pdf",
+          "audioBytes": 950175,
+          "transcriptWords": 246,
+          "unclearMarks": 0
+        },
+        {
+          "itemId": "afc1940003_afs04034a",
+          "part": 2,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1940003_afs04034a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs04034/afc1940003_afs04034a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs04034/afc1940003_afs04034a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs04034/afc1940003_afs04034a.pdf",
+          "audioBytes": 1856738,
+          "transcriptWords": 588,
+          "unclearMarks": 2
+        }
+      ]
+    },
+    {
+      "id": "bob-ledbetter-1940",
+      "title": "Interview with Uncle Bob Ledbetter, Oil City, Louisiana, 1940",
+      "interviewee": "Uncle Bob Ledbetter",
+      "place": "Oil City, Louisiana",
+      "date": "1940",
+      "year": 1940,
+      "partsTotal": 1,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Bob Ledbetter",
+        "John A. Lomax",
+        "Unidentified Person",
+        "Ruby T. Lomax"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1940003_afs03992a",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1940003_afs03992a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs03992/afc1940003_afs03992a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs03992/afc1940003_afs03992a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1940003/afc1940003_afs03992/afc1940003_afs03992a.pdf",
+          "audioBytes": 7967740,
+          "transcriptWords": 2058,
+          "unclearMarks": 5
+        }
+      ]
+    },
+    {
+      "id": "alice-gaston-1941",
+      "title": "Interview with Alice Gaston, Gee's Bend, Alabama, 1941",
+      "interviewee": "Alice Gaston",
+      "place": "Gee's Bend, Alabama",
+      "date": "1941",
+      "year": 1941,
+      "partsTotal": 1,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Alice Gaston",
+        "Robert Sonkin"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1941018_afs05091b",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941018_afs05091b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091b.pdf",
+          "audioBytes": 2150699,
+          "transcriptWords": 522,
+          "unclearMarks": 1
+        }
+      ]
+    },
+    {
+      "id": "harriet-smith-1941",
+      "title": "Interview with Aunt Harriet Smith, Hempstead, Texas, 1941",
+      "interviewee": "Aunt Harriet Smith",
+      "place": "Hempstead, Texas",
+      "date": "1941",
+      "year": 1941,
+      "partsTotal": 4,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "John Henry Faulk",
+        "Harriet Smith"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1941016_afs05499a",
+          "part": 1,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05499a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05499/afc1941016_afs05499a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05499/afc1941016_afs05499a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05499/afc1941016_afs05499a.pdf",
+          "audioBytes": 14683474,
+          "transcriptWords": 1747,
+          "unclearMarks": 9
+        },
+        {
+          "itemId": "afc1941016_afs05499b",
+          "part": 2,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05499b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05499/afc1941016_afs05499b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05499/afc1941016_afs05499b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05499/afc1941016_afs05499b.pdf",
+          "audioBytes": 12674232,
+          "transcriptWords": 1718,
+          "unclearMarks": 1
+        },
+        {
+          "itemId": "afc1941016_afs05500a",
+          "part": 3,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05500a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500a.pdf",
+          "audioBytes": 11870299,
+          "transcriptWords": 1536,
+          "unclearMarks": 4
+        },
+        {
+          "itemId": "afc1941016_afs05500b",
+          "part": 4,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05500b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05500/afc1941016_afs05500b.pdf",
+          "audioBytes": 13080314,
+          "transcriptWords": 1852,
+          "unclearMarks": 1
+        }
+      ]
+    },
+    {
+      "id": "george-johnson-1941",
+      "title": "Interview with George Johnson, Mound Bayou, Mississippi, September 1941",
+      "interviewee": "George Johnson",
+      "place": "Mound Bayou, Mississippi",
+      "date": "September 1941",
+      "year": 1941,
+      "partsTotal": 6,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Mr. George Johnson",
+        "Dr. Charles S. Johnson",
+        "Mrs. Elizabeth Lomax"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1941002_afs04777a",
+          "part": 1,
+          "difficulty": "medium",
+          "locUrl": "https://www.loc.gov/item/afc1941002_afs04777a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04777/afc1941002_afs04777a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04777/afc1941002_afs04777a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04777/afc1941002_afs04777a.pdf",
+          "audioBytes": 22236291,
+          "transcriptWords": 2252,
+          "unclearMarks": 25
+        },
+        {
+          "itemId": "afc1941002_afs04777b",
+          "part": 2,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941002_afs04777b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04777/afc1941002_afs04777b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04777/afc1941002_afs04777b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04777/afc1941002_afs04777b.pdf",
+          "audioBytes": 22745461,
+          "transcriptWords": 2994,
+          "unclearMarks": 12
+        },
+        {
+          "itemId": "afc1941002_afs04778a",
+          "part": 3,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941002_afs04778a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04778/afc1941002_afs04778a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04778/afc1941002_afs04778a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04778/afc1941002_afs04778a.pdf",
+          "audioBytes": 28181960,
+          "transcriptWords": 3656,
+          "unclearMarks": 18
+        },
+        {
+          "itemId": "afc1941002_afs04778b",
+          "part": 4,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941002_afs04778b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04778/afc1941002_afs04778b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04778/afc1941002_afs04778b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04778/afc1941002_afs04778b.pdf",
+          "audioBytes": 18593731,
+          "transcriptWords": 2807,
+          "unclearMarks": 8
+        },
+        {
+          "itemId": "afc1941002_afs04779a",
+          "part": 5,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941002_afs04779a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04779/afc1941002_afs04779a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04779/afc1941002_afs04779a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04779/afc1941002_afs04779a.pdf",
+          "audioBytes": 23422859,
+          "transcriptWords": 3057,
+          "unclearMarks": 22
+        },
+        {
+          "itemId": "afc1941002_afs04779b",
+          "part": 6,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941002_afs04779b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04779/afc1941002_afs04779b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04779/afc1941002_afs04779b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941002/afc1941002_afs04779/afc1941002_afs04779b.pdf",
+          "audioBytes": 24395514,
+          "transcriptWords": 3322,
+          "unclearMarks": 21
+        }
+      ]
+    },
+    {
+      "id": "isom-moseley-1941",
+      "title": "Interview with Isom Moseley, Gee's Bend, Alabama, 1941",
+      "interviewee": "Isom Moseley",
+      "place": "Gee's Bend, Alabama",
+      "date": "1941",
+      "year": 1941,
+      "partsTotal": 1,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Robert Sonkin",
+        "Isom Moseley"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1941018_afs05091a",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941018_afs05091a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941018/afc1941018_afs05091/afc1941018_afs05091a.pdf",
+          "audioBytes": 7072889,
+          "transcriptWords": 1451,
+          "unclearMarks": 8
+        }
+      ]
+    },
+    {
+      "id": "laura-smalley-1941",
+      "title": "Interview with Laura Smalley, Hempstead, Texas, 1941",
+      "interviewee": "Laura Smalley",
+      "place": "Hempstead, Texas",
+      "date": "1941",
+      "year": 1941,
+      "partsTotal": 5,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Mrs. Laura Smalley",
+        "John Henry Faulk",
+        "Unidentified Woman Interviewer"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1941016_afs05496a",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05496a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05496/afc1941016_afs05496a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05496/afc1941016_afs05496a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05496/afc1941016_afs05496a.pdf",
+          "audioBytes": 13887754,
+          "transcriptWords": 2386,
+          "unclearMarks": 2
+        },
+        {
+          "itemId": "afc1941016_afs05496b",
+          "part": 2,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05496b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05496/afc1941016_afs05496b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05496/afc1941016_afs05496b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05496/afc1941016_afs05496b.pdf",
+          "audioBytes": 10016008,
+          "transcriptWords": 2045,
+          "unclearMarks": 16
+        },
+        {
+          "itemId": "afc1941016_afs05497a",
+          "part": 3,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05497a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497a.pdf",
+          "audioBytes": 14407861,
+          "transcriptWords": 2169,
+          "unclearMarks": 7
+        },
+        {
+          "itemId": "afc1941016_afs05497b",
+          "part": 4,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05497b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05497/afc1941016_afs05497b.pdf",
+          "audioBytes": 14208702,
+          "transcriptWords": 2274,
+          "unclearMarks": 3
+        },
+        {
+          "itemId": "afc1941016_afs05498b",
+          "part": 5,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1941016_afs05498b/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05498/afc1941016_afs05498b.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05498/afc1941016_afs05498b.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1941016/afc1941016_afs05498/afc1941016_afs05498b.pdf",
+          "audioBytes": 13971728,
+          "transcriptWords": 1824,
+          "unclearMarks": 5
+        }
+      ]
+    },
+    {
+      "id": "fountain-hughes-1949",
+      "title": "Interview with Fountain Hughes, Baltimore, Maryland, June 11, 1949",
+      "interviewee": "Fountain Hughes",
+      "place": "Baltimore, Maryland",
+      "date": "June 11, 1949",
+      "year": 1949,
+      "partsTotal": 1,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Fountain Hughes",
+        "Hermond Norwood"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1950037_afs09990a",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1950037_afs09990a/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1950037/afc1950037_afs09990/afc1950037_afs09990a.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1950037/afc1950037_afs09990/afc1950037_afs09990a.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1950037/afc1950037_afs09990/afc1950037_afs09990a.pdf",
+          "audioBytes": 19711987,
+          "transcriptWords": 5082,
+          "unclearMarks": 3
+        }
+      ]
+    },
+    {
+      "id": "charlie-smith-1975",
+      "title": "Interview with Charlie Smith, Bartow, Florida, March 17, 1975",
+      "interviewee": "Charlie Smith",
+      "place": "Bartow, Florida",
+      "date": "March 17, 1975",
+      "year": 1975,
+      "partsTotal": 1,
+      "complete": true,
+      "missingParts": [],
+      "speakers": [
+        "Elmer Sparks",
+        "Charlie Smith"
+      ],
+      "parts": [
+        {
+          "itemId": "afc1975023_afs17510",
+          "part": 1,
+          "difficulty": "easy",
+          "locUrl": "https://www.loc.gov/item/afc1975023_afs17510/",
+          "audioUrl": "https://tile.loc.gov/storage-services/service/afc/afc1975023/afc1975023_afs17510/afc1975023_afs17510.mp3",
+          "transcriptUrl": "https://tile.loc.gov/storage-services/service/afc/afc1975023/afc1975023_afs17510/afc1975023_afs17510.xml",
+          "pdfUrl": "https://tile.loc.gov/storage-services/service/afc/afc1975023/afc1975023_afs17510/afc1975023_afs17510.pdf",
+          "audioBytes": 37944343,
+          "transcriptWords": 5053,
+          "unclearMarks": 18
+        }
+      ]
+    }
+  ]
+}

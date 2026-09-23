@@ -1,0 +1,1321 @@
+{
+ "the break up": {
+  "group": "Freedom & the end of slavery",
+  "term": "the break up",
+  "mentions": 9,
+  "byInterviewee": 3,
+  "people": [
+   "Harriet Smith"
+  ],
+  "peopleSaidIt": [
+   "Harriet Smith"
+  ],
+  "moments": [
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 32.88,
+    "sideTime": 32.9,
+    "text": "Well, I was about thirteen years old at the break up.",
+    "approximate": false
+   }
+  ]
+ },
+ "the surrender": {
+  "group": "Freedom & the end of slavery",
+  "term": "the surrender",
+  "mentions": 9,
+  "byInterviewee": 7,
+  "people": [
+   "Wallace Quarterman",
+   "Isom Moseley"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "Isom Moseley"
+  ],
+  "moments": [
+   {
+    "session": "isom-moseley-1941",
+    "name": "Isom Moseley",
+    "speaker": "Isom Moseley",
+    "side": 1,
+    "sides": 1,
+    "at": 376.14,
+    "sideTime": 376.1,
+    "text": "They got the third, I think they say, what they made, after surrender.",
+    "approximate": false
+   },
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 1,
+    "sides": 2,
+    "at": 57.02,
+    "sideTime": 57,
+    "text": "I surrender, yes open the door, and let me come in.",
+    "approximate": false
+   }
+  ]
+ },
+ "freedom / set free": {
+  "group": "Freedom & the end of slavery",
+  "term": "freedom / set free",
+  "mentions": 21,
+  "byInterviewee": 20,
+  "people": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Isom Moseley",
+   "Fountain Hughes",
+   "Charlie Smith",
+   "Susan A. Quall",
+   "Dave White"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Isom Moseley",
+   "Fountain Hughes",
+   "Charlie Smith",
+   "Susan A. Quall",
+   "Dave White"
+  ],
+  "moments": [
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 810.48,
+    "sideTime": 810.5,
+    "text": "I know, I remember one night, I was out after I, I was free,",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 1,
+    "sides": 6,
+    "at": 676.2,
+    "sideTime": 676.2,
+    "text": "And when, freedom time come back, master Jeff come on home, you understand.",
+    "approximate": false
+   },
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 1,
+    "sides": 5,
+    "at": 518.88,
+    "sideTime": 518.9,
+    "text": "Mama and them didn't know where to go, you see after freedom broke.",
+    "approximate": false
+   },
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 2,
+    "sides": 4,
+    "at": 788.65,
+    "sideTime": 261.5,
+    "text": "Yes, yes. That was the time the soldiers was going back you know after the freedom,",
+    "approximate": false
+   }
+  ]
+ },
+ "Juneteenth / nineteenth of June": {
+  "group": "Freedom & the end of slavery",
+  "term": "Juneteenth / nineteenth of June",
+  "mentions": 1,
+  "byInterviewee": 1,
+  "people": [
+   "Laura Smalley"
+  ],
+  "peopleSaidIt": [
+   "Laura Smalley"
+  ],
+  "moments": [
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 1,
+    "sides": 5,
+    "at": 589.66,
+    "sideTime": 589.7,
+    "text": "Six months. And turn them loose on the nineteenth of June.",
+    "approximate": false
+   }
+  ]
+ },
+ "emancipation": {
+  "group": "Freedom & the end of slavery",
+  "term": "emancipation",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "Lincoln": {
+  "group": "Freedom & the end of slavery",
+  "term": "Lincoln",
+  "mentions": 6,
+  "byInterviewee": 6,
+  "people": [
+   "Celia Black"
+  ],
+  "peopleSaidIt": [
+   "Celia Black"
+  ],
+  "moments": []
+ },
+ "Yankees / soldiers": {
+  "group": "Freedom & the end of slavery",
+  "term": "Yankees / soldiers",
+  "mentions": 51,
+  "byInterviewee": 45,
+  "people": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "George Johnson",
+   "Harriet Smith",
+   "Alice Gaston",
+   "Fountain Hughes",
+   "Samuel Polite",
+   "Ann Scott",
+   "Susan A. Quall"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "George Johnson",
+   "Harriet Smith",
+   "Alice Gaston",
+   "Fountain Hughes",
+   "Samuel Polite",
+   "Ann Scott",
+   "Susan A. Quall"
+  ],
+  "moments": [
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 1,
+    "sides": 2,
+    "at": 235.8,
+    "sideTime": 235.8,
+    "text": "But the Yankees saying we must go back to the South they'll help we.",
+    "approximate": false
+   },
+   {
+    "session": "alice-gaston-1941",
+    "name": "Alice Gaston",
+    "speaker": "Alice Gaston",
+    "side": 1,
+    "sides": 1,
+    "at": 2.36,
+    "sideTime": 2.4,
+    "text": "I can remember when, uh, I can remember when the Yankees come through and,",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 2,
+    "sides": 6,
+    "at": 824.3,
+    "sideTime": 106.4,
+    "text": "And I don't know that other piece I used to play, I'm A Soldier,",
+    "approximate": false
+   },
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 489.49,
+    "sideTime": 489.5,
+    "text": "All day long we seen them soldiers going back to San Antonio and different places.",
+    "approximate": false
+   }
+  ]
+ },
+ "the war": {
+  "group": "Freedom & the end of slavery",
+  "term": "the war",
+  "mentions": 30,
+  "byInterviewee": 22,
+  "people": [
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Annie Williams",
+   "Fountain Hughes",
+   "Samuel Polite",
+   "Susanna Rebecca Wright Thompson",
+   "Phoebe Boyd"
+  ],
+  "peopleSaidIt": [
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Annie Williams",
+   "Fountain Hughes",
+   "Samuel Polite",
+   "Susanna Rebecca Wright Thompson",
+   "Phoebe Boyd"
+  ],
+  "moments": [
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 697,
+    "sideTime": 697,
+    "text": "See I wasn't old enough during the war to sell, during the Army.",
+    "approximate": false
+   },
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 1,
+    "sides": 5,
+    "at": 566.02,
+    "sideTime": 566,
+    "text": "He had been off to the war, and ah, come back.",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 5,
+    "sides": 6,
+    "at": 3252.92,
+    "sideTime": 137.2,
+    "text": "And then old fellow, played in the Civil War, understand.",
+    "approximate": false
+   },
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 4,
+    "sides": 4,
+    "at": 1805.63,
+    "sideTime": 302.4,
+    "text": "Yes, he fought in the Civil War.",
+    "approximate": false
+   }
+  ]
+ },
+ "forty acres": {
+  "group": "Freedom & the end of slavery",
+  "term": "forty acres",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "old master / marster": {
+  "group": "Titles & forms of address",
+  "term": "old master / marster",
+  "mentions": 138,
+  "byInterviewee": 132,
+  "people": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Isom Moseley",
+   "Alice Gaston",
+   "Williams",
+   "Fountain Hughes",
+   "Celia Black",
+   "Ann Scott",
+   "Susanna Rebecca Wright Thompson",
+   "Sarah Garner",
+   "Phoebe Boyd"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Isom Moseley",
+   "Alice Gaston",
+   "Williams",
+   "Fountain Hughes",
+   "Celia Black",
+   "Ann Scott",
+   "Susanna Rebecca Wright Thompson",
+   "Sarah Garner",
+   "Phoebe Boyd"
+  ],
+  "moments": [
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 2,
+    "sides": 2,
+    "at": 293.05,
+    "sideTime": 12.7,
+    "text": "That day master promised so, to give we forty dollars a month in pay.",
+    "approximate": false
+   },
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 321.9,
+    "sideTime": 321.9,
+    "text": "All that I knowed they teach you is mind your master and your mistress.",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 1,
+    "sides": 6,
+    "at": 273.85,
+    "sideTime": 273.9,
+    "text": "Master Jeff had five plantations over there: Ursino, Brierfield, Hurricane, Palmyra and Lick Place.",
+    "approximate": false
+   },
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 1015.2,
+    "sideTime": 1015.2,
+    "text": "master, young masters, told we come to be, well I don't know how old.",
+    "approximate": false
+   }
+  ]
+ },
+ "mistress / old miss": {
+  "group": "Titles & forms of address",
+  "term": "mistress / old miss",
+  "mentions": 19,
+  "byInterviewee": 17,
+  "people": [
+   "Laura Smalley",
+   "Harriet Smith",
+   "Isom Moseley",
+   "Alice Gaston",
+   "Fountain Hughes",
+   "Celia Black",
+   "Ann Scott"
+  ],
+  "peopleSaidIt": [
+   "Laura Smalley",
+   "Harriet Smith",
+   "Isom Moseley",
+   "Alice Gaston",
+   "Fountain Hughes",
+   "Celia Black",
+   "Ann Scott"
+  ],
+  "moments": [
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 321.9,
+    "sideTime": 321.9,
+    "text": "All that I knowed they teach you is mind your master and your mistress.",
+    "approximate": false
+   },
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 4,
+    "sides": 5,
+    "at": 1806.19,
+    "sideTime": 27.6,
+    "text": "and said old mistress looked out, and say's ah, “Don't you go out there.”",
+    "approximate": false
+   },
+   {
+    "session": "alice-gaston-1941",
+    "name": "Alice Gaston",
+    "speaker": "Alice Gaston",
+    "side": 1,
+    "sides": 1,
+    "at": 17.94,
+    "sideTime": 17.9,
+    "text": "And I can remember when my missus used to run in the garden,",
+    "approximate": false
+   },
+   {
+    "session": "isom-moseley-1941",
+    "name": "Isom Moseley",
+    "speaker": "Isom Moseley",
+    "side": 1,
+    "sides": 1,
+    "at": 91.22,
+    "sideTime": 91.2,
+    "text": "my master was name L., you got that, and my, my mistress had a master name,",
+    "approximate": false
+   }
+  ]
+ },
+ "\"Aunt\" / \"Uncle\" (as address)": {
+  "group": "Titles & forms of address",
+  "term": "\"Aunt\" / \"Uncle\" (as address)",
+  "mentions": 56,
+  "byInterviewee": 30,
+  "people": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "Bob Ledbetter",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Fountain Hughes",
+   "Phoebe Boyd"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Phoebe Boyd"
+  ],
+  "moments": [
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 2,
+    "sides": 4,
+    "at": 956.13,
+    "sideTime": 429,
+    "text": "B. a home, and uh, pa had a home, Uncle Dave a home.",
+    "approximate": false
+   },
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 2,
+    "sides": 5,
+    "at": 784.9,
+    "sideTime": 182.7,
+    "text": "And, so Mrs. Adeline wouldn't let my, let ah, Uncle Saul whup her.",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 1,
+    "sides": 6,
+    "at": 551.83,
+    "sideTime": 551.8,
+    "text": "Uncle Ben went to old Mrs. Mrs. Irene, his wife, say, “Well,",
+    "approximate": false
+   },
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 1,
+    "sides": 2,
+    "at": 204.6,
+    "sideTime": 204.6,
+    "text": "To leave our land for the sake of Uncle Sam.",
+    "approximate": false
+   }
+  ]
+ },
+ "mammy": {
+  "group": "Titles & forms of address",
+  "term": "mammy",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "patrollers / paddyrollers": {
+  "group": "Slavery & control",
+  "term": "patrollers / paddyrollers",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "overseer": {
+  "group": "Slavery & control",
+  "term": "overseer",
+  "mentions": 17,
+  "byInterviewee": 14,
+  "people": [
+   "Wallace Quarterman",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Samuel Polite",
+   "Sarah Garner"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Samuel Polite",
+   "Sarah Garner"
+  ],
+  "moments": [
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 2,
+    "sides": 4,
+    "at": 858.09,
+    "sideTime": 330.9,
+    "text": "That was our uh, uh, over, overseer over the place there, you know.",
+    "approximate": false
+   },
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 2,
+    "sides": 5,
+    "at": 888.14,
+    "sideTime": 285.9,
+    "text": "the ah, you know, the ah, overseer, you know, they whup you.",
+    "approximate": false
+   },
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 1,
+    "sides": 2,
+    "at": 146,
+    "sideTime": 146,
+    "text": "The overseer ask me: “What is that, if that is thunder?”",
+    "approximate": false
+   }
+  ]
+ },
+ "driver": {
+  "group": "Slavery & control",
+  "term": "driver",
+  "mentions": 3,
+  "byInterviewee": 3,
+  "people": [
+   "Wallace Quarterman",
+   "George Johnson"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "George Johnson"
+  ],
+  "moments": [
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 1,
+    "sides": 2,
+    "at": 183.18,
+    "sideTime": 183.2,
+    "text": "The driver. And so he said that, uh, Wallace is lying if he,",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 6,
+    "sides": 6,
+    "at": 3849.04,
+    "sideTime": 17.8,
+    "text": "the driver was, the boy was chopping cotton.",
+    "approximate": false
+   }
+  ]
+ },
+ "whipping / whupping": {
+  "group": "Slavery & control",
+  "term": "whipping / whupping",
+  "mentions": 80,
+  "byInterviewee": 73,
+  "people": [
+   "Billy McCrea",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Celia Black",
+   "Samuel Polite",
+   "Sarah Garner"
+  ],
+  "peopleSaidIt": [
+   "Billy McCrea",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Celia Black",
+   "Samuel Polite",
+   "Sarah Garner"
+  ],
+  "moments": [
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 2,
+    "sides": 5,
+    "at": 844.08,
+    "sideTime": 241.9,
+    "text": "And ah, he'd do everything, you know, he, he would, they couldn't whup him.",
+    "approximate": false
+   },
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 343.21,
+    "sideTime": 343.2,
+    "text": "they did, and I hear our folks talk you know, about them whipping you know,",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 6,
+    "sides": 6,
+    "at": 3870.57,
+    "sideTime": 39.3,
+    "text": "Say, “Mr. So-On-So whup me because I won't keep up with the gang.",
+    "approximate": false
+   }
+  ]
+ },
+ "sold / auction / block": {
+  "group": "Slavery & control",
+  "term": "sold / auction / block",
+  "mentions": 7,
+  "byInterviewee": 6,
+  "people": [
+   "Williams",
+   "Fountain Hughes",
+   "Charlie Smith"
+  ],
+  "peopleSaidIt": [
+   "Williams",
+   "Fountain Hughes",
+   "Charlie Smith"
+  ],
+  "moments": [
+   {
+    "session": "charlie-smith-1975",
+    "name": "Charlie Smith",
+    "speaker": "Charlie Smith",
+    "side": 1,
+    "sides": 1,
+    "at": 498.46,
+    "sideTime": 498.5,
+    "text": "They would try to put you up on the block to sell you.",
+    "approximate": false
+   },
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 627.79,
+    "sideTime": 627.8,
+    "text": "Have a auction bench, and they'd put you on, up on the bench and bid on you just same as",
+    "approximate": false
+   }
+  ]
+ },
+ "pass (written pass)": {
+  "group": "Slavery & control",
+  "term": "pass (written pass)",
+  "mentions": 1,
+  "byInterviewee": 1,
+  "people": [
+   "Fountain Hughes"
+  ],
+  "peopleSaidIt": [
+   "Fountain Hughes"
+  ],
+  "moments": [
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 572.32,
+    "sideTime": 572.3,
+    "text": "And if I had that pass, that was what we call a pass,",
+    "approximate": false
+   }
+  ]
+ },
+ "run away / runaway": {
+  "group": "Slavery & control",
+  "term": "run away / runaway",
+  "mentions": 5,
+  "byInterviewee": 5,
+  "people": [
+   "Billy McCrea",
+   "unidentified former slaves from Virginia",
+   "Fountain Hughes",
+   "Samuel Polite"
+  ],
+  "peopleSaidIt": [
+   "Billy McCrea",
+   "unidentified former slaves from Virginia",
+   "Fountain Hughes",
+   "Samuel Polite"
+  ],
+  "moments": [
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 983.04,
+    "sideTime": 983,
+    "text": "Well he couldn't get a substitute to take his place so he run away from home.",
+    "approximate": false
+   }
+  ]
+ },
+ "quarters / big house": {
+  "group": "Slavery & control",
+  "term": "quarters / big house",
+  "mentions": 2,
+  "byInterviewee": 1,
+  "people": [
+   "George Johnson",
+   "Harriet Smith"
+  ],
+  "peopleSaidIt": [
+   "Harriet Smith"
+  ],
+  "moments": [
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 188.76,
+    "sideTime": 188.8,
+    "text": "We would go to the big house, prayer meetings you know.",
+    "approximate": false
+   }
+  ]
+ },
+ "breeding": {
+  "group": "Slavery & control",
+  "term": "breeding",
+  "mentions": 2,
+  "byInterviewee": 1,
+  "people": [
+   "Laura Smalley"
+  ],
+  "peopleSaidIt": [
+   "Laura Smalley"
+  ],
+  "moments": [
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 4,
+    "sides": 5,
+    "at": 2100.37,
+    "sideTime": 321.8,
+    "text": "Want to breed them like they was hogs or horses, something like that, I say.",
+    "approximate": false
+   }
+  ]
+ },
+ "plantation": {
+  "group": "Slavery & control",
+  "term": "plantation",
+  "mentions": 36,
+  "byInterviewee": 26,
+  "people": [
+   "Wallace Quarterman",
+   "George Johnson",
+   "Laura Smalley",
+   "Isom Moseley",
+   "Williams",
+   "Charlie Smith",
+   "Samuel Polite",
+   "Dave White"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "George Johnson",
+   "Isom Moseley",
+   "Williams",
+   "Charlie Smith",
+   "Samuel Polite",
+   "Dave White"
+  ],
+  "moments": [
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 1,
+    "sides": 6,
+    "at": 273.85,
+    "sideTime": 273.9,
+    "text": "Master Jeff had five plantations over there: Ursino, Brierfield, Hurricane, Palmyra and Lick Place.",
+    "approximate": false
+   },
+   {
+    "session": "isom-moseley-1941",
+    "name": "Isom Moseley",
+    "speaker": "Isom Moseley",
+    "side": 1,
+    "sides": 1,
+    "at": 233.32,
+    "sideTime": 233.3,
+    "text": "Now he'd make soap for the whole plantation, and uh, make about two or three barrels.",
+    "approximate": false
+   },
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 2,
+    "sides": 2,
+    "at": 488.89,
+    "sideTime": 208.5,
+    "text": "His plantation on, on Savannah River.",
+    "approximate": false
+   },
+   {
+    "session": "charlie-smith-1975",
+    "name": "Charlie Smith",
+    "speaker": "Charlie Smith",
+    "side": 1,
+    "sides": 1,
+    "at": 450.39,
+    "sideTime": 450.4,
+    "text": "He'll carry you to his plantation.",
+    "approximate": false
+   }
+  ]
+ },
+ "Ku Klux / Klan": {
+  "group": "After slavery",
+  "term": "Ku Klux / Klan",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "sharecropping / on halves": {
+  "group": "After slavery",
+  "term": "sharecropping / on halves",
+  "mentions": 6,
+  "byInterviewee": 5,
+  "people": [
+   "Harriet Smith",
+   "Isom Moseley"
+  ],
+  "peopleSaidIt": [
+   "Harriet Smith",
+   "Isom Moseley"
+  ],
+  "moments": [
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 2,
+    "sides": 4,
+    "at": 864.11,
+    "sideTime": 336.9,
+    "text": "Rented on the halves till we bought our home across the creek.",
+    "approximate": false
+   },
+   {
+    "session": "isom-moseley-1941",
+    "name": "Isom Moseley",
+    "speaker": "Isom Moseley",
+    "side": 1,
+    "sides": 1,
+    "at": 354.14,
+    "sideTime": 354.1,
+    "text": "And when they found out they was free, they worked on shares,",
+    "approximate": false
+   }
+  ]
+ },
+ "\"poor white trash\"": {
+  "group": "After slavery",
+  "term": "\"poor white trash\"",
+  "mentions": 2,
+  "byInterviewee": 0,
+  "people": [
+   "Harriet Smith"
+  ],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "Reconstruction": {
+  "group": "After slavery",
+  "term": "Reconstruction",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "praying / praise house / church": {
+  "group": "Religion, music & gatherings",
+  "term": "praying / praise house / church",
+  "mentions": 113,
+  "byInterviewee": 86,
+  "people": [
+   "Billy McCrea",
+   "Bob Ledbetter",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Fountain Hughes",
+   "Celia Black",
+   "Ann Scott",
+   "Susanna Rebecca Wright Thompson",
+   "Phoebe Boyd"
+  ],
+  "peopleSaidIt": [
+   "Billy McCrea",
+   "Bob Ledbetter",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Fountain Hughes",
+   "Celia Black",
+   "Ann Scott",
+   "Susanna Rebecca Wright Thompson",
+   "Phoebe Boyd"
+  ],
+  "moments": [
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 200.32,
+    "sideTime": 200.3,
+    "text": "Yes. I went to Mountain City to the white folks' church many a time.",
+    "approximate": false
+   },
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 3,
+    "sides": 5,
+    "at": 1160.3,
+    "sideTime": 9.7,
+    "text": "you know, they used to didn't have no church, you know, in no house,",
+    "approximate": false
+   },
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 1562.6,
+    "sideTime": 1562.6,
+    "text": "And now he wants me to go down to his church next Sunday.",
+    "approximate": false
+   },
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 2,
+    "sides": 6,
+    "at": 1510.42,
+    "sideTime": 792.5,
+    "text": "Going down to AME Church since I was a boy.",
+    "approximate": false
+   }
+  ]
+ },
+ "spirituals / songs / hollers": {
+  "group": "Religion, music & gatherings",
+  "term": "spirituals / songs / hollers",
+  "mentions": 216,
+  "byInterviewee": 149,
+  "people": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "Bob Ledbetter",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Annie Williams",
+   "unidentified former slaves from Virginia",
+   "Fountain Hughes",
+   "Ann Scott"
+  ],
+  "peopleSaidIt": [
+   "Wallace Quarterman",
+   "Billy McCrea",
+   "Bob Ledbetter",
+   "George Johnson",
+   "Laura Smalley",
+   "Harriet Smith",
+   "Williams",
+   "Annie Williams",
+   "Fountain Hughes"
+  ],
+  "moments": [
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 3,
+    "sides": 6,
+    "at": 1994.15,
+    "sideTime": 470.8,
+    "text": "C. Johnson. He could sing world, he could sing how a goat sing. Hollering.",
+    "approximate": false
+   },
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 1466.38,
+    "sideTime": 1466.4,
+    "text": "Oh, I, I wish I could, I wish I could sing it for you,",
+    "approximate": false
+   },
+   {
+    "session": "wallace-quarterman-1935",
+    "name": "Wallace Quarterman",
+    "speaker": "Wallace Quarterman",
+    "side": 1,
+    "sides": 2,
+    "at": 172,
+    "sideTime": 172,
+    "text": "And so I run down in the field and, and whooped and holler,",
+    "approximate": false
+   },
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 410.71,
+    "sideTime": 410.7,
+    "text": "I know they sang the song, they sang the song, \"Are We Born to Die?\"",
+    "approximate": false
+   }
+  ]
+ },
+ "conjure / hoodoo / root": {
+  "group": "Religion, music & gatherings",
+  "term": "conjure / hoodoo / root",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "corn shucking / frolic / dances": {
+  "group": "Religion, music & gatherings",
+  "term": "corn shucking / frolic / dances",
+  "mentions": 55,
+  "byInterviewee": 50,
+  "people": [
+   "George Johnson",
+   "Harriet Smith",
+   "Annie Williams",
+   "Celia Black"
+  ],
+  "peopleSaidIt": [
+   "George Johnson",
+   "Harriet Smith",
+   "Annie Williams",
+   "Celia Black"
+  ],
+  "moments": [
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 2,
+    "sides": 6,
+    "at": 880.35,
+    "sideTime": 162.5,
+    "text": "Dance, stick a bottle and all day, you know, and then you dance,",
+    "approximate": false
+   },
+   {
+    "session": "harriet-smith-1941",
+    "name": "Harriet Smith",
+    "speaker": "Harriet Smith",
+    "side": 1,
+    "sides": 4,
+    "at": 130.32,
+    "sideTime": 130.3,
+    "text": "Yes. I've seen pa and ma dance a many a time.",
+    "approximate": false
+   }
+  ]
+ },
+ "Gullah / Geechee": {
+  "group": "Language & speech",
+  "term": "Gullah / Geechee",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "buckra (white person)": {
+  "group": "Language & speech",
+  "term": "buckra (white person)",
+  "mentions": 0,
+  "byInterviewee": 0,
+  "people": [],
+  "peopleSaidIt": [],
+  "moments": []
+ },
+ "the slur (n-word)": {
+  "group": "Language & speech",
+  "term": "the slur (n-word)",
+  "mentions": 81,
+  "byInterviewee": 79,
+  "people": [
+   "Billy McCrea",
+   "Bob Ledbetter",
+   "Joe McDonald",
+   "George Johnson",
+   "Laura Smalley",
+   "Williams",
+   "Fountain Hughes",
+   "Charlie Smith"
+  ],
+  "peopleSaidIt": [
+   "Billy McCrea",
+   "Bob Ledbetter",
+   "Joe McDonald",
+   "George Johnson",
+   "Laura Smalley",
+   "Williams",
+   "Fountain Hughes",
+   "Charlie Smith"
+  ],
+  "moments": [
+   {
+    "session": "george-johnson-1941",
+    "name": "George Johnson",
+    "speaker": "Mr. George Johnson",
+    "side": 4,
+    "sides": 6,
+    "at": 2808.25,
+    "sideTime": 379.1,
+    "text": "He said, “Man, if you get that trying be a nigga one night,",
+    "approximate": false
+   },
+   {
+    "session": "laura-smalley-1941",
+    "name": "Laura Smalley",
+    "speaker": "Mrs. Laura Smalley",
+    "side": 2,
+    "sides": 5,
+    "at": 766.68,
+    "sideTime": 164.5,
+    "text": "Wife, you know, just like, you know, you have a lot of niggas,",
+    "approximate": false
+   },
+   {
+    "session": "fountain-hughes-1949",
+    "name": "Fountain Hughes",
+    "speaker": "Fountain Hughes",
+    "side": 1,
+    "sides": 1,
+    "at": 645.64,
+    "sideTime": 645.6,
+    "text": "All that. Then if they had any bad ones, they'd sell them to the nigga traders,",
+    "approximate": false
+   },
+   {
+    "session": "bob-ledbetter-1940",
+    "name": "Bob Ledbetter",
+    "speaker": "Bob Ledbetter",
+    "side": 1,
+    "sides": 1,
+    "at": 426.26,
+    "sideTime": 426.3,
+    "text": "He said, \"Well, Bob, I be damn if that ain't too much for a nigga to say.\"",
+    "approximate": false
+   }
+  ]
+ }
+}
