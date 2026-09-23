@@ -38,23 +38,8 @@
    "credit": "Alan Lomax, Zora Neale Hurston, and Mary Elizabeth Barnicle Expedition Collection (AFC 1935/001), American Folklife Center, Library of Congress"
   },
   {
-   "id": "unidentified-petersburg-1937",
-   "numeral": "III",
-   "name": "Unidentified speakers",
-   "place": "Petersburg, Virginia",
-   "date": "ca. 1937-1940",
-   "year": 1937,
-   "with": [
-    "Roscoe E. Lewis"
-   ],
-   "duration": 74.79,
-   "parts": 1,
-   "approximate": true,
-   "credit": "Hampton Institute Duplication Project (AFC 1948/015), American Folklife Center, Library of Congress"
-  },
-  {
    "id": "joe-mcdonald-1940",
-   "numeral": "IV",
+   "numeral": "III",
    "name": "Joe McDonald",
    "place": "Livingston, Alabama",
    "date": "1940",
@@ -70,7 +55,7 @@
   },
   {
    "id": "bob-ledbetter-1940",
-   "numeral": "V",
+   "numeral": "IV",
    "name": "Bob Ledbetter",
    "place": "Oil City, Louisiana",
    "date": "1940",
@@ -86,7 +71,7 @@
   },
   {
    "id": "alice-gaston-1941",
-   "numeral": "VI",
+   "numeral": "V",
    "name": "Alice Gaston",
    "place": "Gee's Bend, Alabama",
    "date": "1941",
@@ -101,7 +86,7 @@
   },
   {
    "id": "harriet-smith-1941",
-   "numeral": "VII",
+   "numeral": "VI",
    "name": "Harriet Smith",
    "place": "Hempstead, Texas",
    "date": "1941",
@@ -116,7 +101,7 @@
   },
   {
    "id": "george-johnson-1941",
-   "numeral": "VIII",
+   "numeral": "VII",
    "name": "George Johnson",
    "place": "Mound Bayou, Mississippi",
    "date": "September 1941",
@@ -135,7 +120,7 @@
   },
   {
    "id": "isom-moseley-1941",
-   "numeral": "IX",
+   "numeral": "VIII",
    "name": "Isom Moseley",
    "place": "Gee's Bend, Alabama",
    "date": "1941",
@@ -150,7 +135,7 @@
   },
   {
    "id": "laura-smalley-1941",
-   "numeral": "X",
+   "numeral": "IX",
    "name": "Laura Smalley",
    "place": "Hempstead, Texas",
    "date": "1941",
@@ -165,7 +150,7 @@
   },
   {
    "id": "fountain-hughes-1949",
-   "numeral": "XI",
+   "numeral": "X",
    "name": "Fountain Hughes",
    "place": "Baltimore, Maryland",
    "date": "June 11, 1949",
@@ -180,7 +165,7 @@
   },
   {
    "id": "charlie-smith-1975",
-   "numeral": "XII",
+   "numeral": "XI",
    "name": "Charlie Smith",
    "place": "Bartow, Florida",
    "date": "March 17, 1975",

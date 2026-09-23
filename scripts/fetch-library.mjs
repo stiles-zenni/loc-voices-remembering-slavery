@@ -15,7 +15,7 @@ const manifest = JSON.parse(fs.readFileSync(path.join(LIB, 'manifest.json'), 'ut
 const dry = process.argv.includes('--dry-run');
 
 const jobs = [];
-for (const s of manifest.sessions) {
+for (const s of manifest.sessions.filter(s => !s.excluded)) {
   for (const p of s.parts) {
     jobs.push({ url: p.transcriptUrl, file: path.join(LIB, 'transcripts', `${p.itemId}.xml`) });
     jobs.push({ url: p.audioUrl, file: path.join(LIB, 'audio', `${p.itemId}.mp3`), bytes: p.audioBytes });

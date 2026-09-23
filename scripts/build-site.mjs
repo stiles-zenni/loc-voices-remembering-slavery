@@ -60,9 +60,13 @@ const r2 = x => Math.round(x * 100) / 100;
 const manifest = JSON.parse(fs.readFileSync(path.join(LIB, 'manifest.json'), 'utf8'));
 const report = JSON.parse(fs.readFileSync(path.join(LIB, 'aligned', '_report.json'), 'utf8'));
 fs.mkdirSync(OUT, { recursive: true });
+// Start clean, so interviews removed from the manifest disappear from the site too.
+for (const f of fs.readdirSync(OUT)) if (f.endsWith('.json')) fs.rmSync(path.join(OUT, f));
 
 const contents = [];
-manifest.sessions.forEach((s, i) => {
+// Sessions marked "excluded" in the manifest are kept on record but left out of the edition.
+const sessions = manifest.sessions.filter(s => !s.excluded);
+sessions.forEach((s, i) => {
   const ed = EDITORIAL[s.id] ?? { name: s.interviewee, with: [] };
   let offset = 0, anchored = 0, words = 0;
   const parts = [], phrases = [];
@@ -175,6 +179,7 @@ function head({ title, description }) {
 }
 
 const READ = path.join(ROOT, 'read');
+fs.rmSync(READ, { recursive: true, force: true });
 fs.mkdirSync(READ, { recursive: true });
 for (const c of contents) {
   const s = JSON.parse(fs.readFileSync(path.join(OUT, `${c.id}.json`), 'utf8'));

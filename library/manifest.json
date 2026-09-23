@@ -202,7 +202,9 @@
           "transcriptWords": 284,
           "unclearMarks": 2
         }
-      ]
+      ],
+      "excluded": true,
+      "excludedReason": "Removed from the edition (2026-09-23): the audio is badly degraded, which makes the words hard to trust, and the passage is distressing without enough context to present it responsibly."
     },
     {
       "id": "joe-mcdonald-1940",

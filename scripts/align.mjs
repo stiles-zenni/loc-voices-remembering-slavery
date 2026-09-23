@@ -53,7 +53,7 @@ function parseTranscript(file, { speakerAliases = {}, noteLabels = [] }) {
       .replace(/\s+/g, ' ').trim();
     if (!text || /^END OF (SIDE|TAPE)/i.test(text)) continue;
     // "Speaker: text" (some transcripts omit the space after the colon).
-    // "[Mrs. Jessie (?)]: …" marks a speaker the transcriber wasn't sure of; keep the "(?)".
+    // "[Alan Lomax (?)]: …" marks a speaker the transcriber wasn't sure of; keep the "(?)".
     const unsure = text.match(/^\[\s*([A-Z][^\]:]{1,60}?)\s*\(\?\)\s*\]:\s*(.*)$/);
     const m = unsure ? [text, unsure[1], unsure[2]] : text.match(/^([A-Z][^:]{1,60}):\s*(.*)$/);
     const label = m?.[1].trim();
@@ -409,7 +409,7 @@ async function main() {
   for (const d of Object.values(DIRS)) fs.mkdirSync(d, { recursive: true });
   const manifest = JSON.parse(fs.readFileSync(path.join(LIB, 'manifest.json'), 'utf8'));
   const only = opt('--only');
-  const jobs = manifest.sessions.flatMap(s => s.parts.map(p => ({ session: s, part: p })))
+  const jobs = manifest.sessions.filter(s => !s.excluded).flatMap(s => s.parts.map(p => ({ session: s, part: p })))
     .filter(({ session, part }) => !only || session.id === only || part.itemId === only);
   const report = fs.existsSync(REPORT) ? JSON.parse(fs.readFileSync(REPORT, 'utf8')) : {};
   const todo = jobs.filter(({ part }) => flag('--force') || flag('--reuse') || !fs.existsSync(path.join(DIRS.aligned, `${part.itemId}.json`)));
