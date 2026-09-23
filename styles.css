@@ -751,3 +751,5 @@ body.ended .stage { opacity: 0; }
 .about-list { margin: 0 0 1em; padding-left: 1.2em; }
 .about-list li { margin: 0 0 0.6em; }
 .about-list li::marker { color: var(--accent); }
+/* The closing notes are not a label/text row; keep them stacked at every width. */
+.intro-details > .intro-independent { display: block; }
