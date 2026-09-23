@@ -1,6 +1,8 @@
 # loc-voices-remembering-slavery
 Recorded interviews with people who lived through slavery in the United States, from the American Folklife Center at the Library of Congress. This edition presents twelve of them, recorded between 1935 and 1975, with the words appearing as they are spoken.
 
+**Live site: [voices-remembering-slavery.netlify.app](https://voices-remembering-slavery.netlify.app/)**
+
 **Visualizing Voices** is an independent edition of the Library of Congress collection [*Voices Remembering Slavery: Freed People Tell Their Stories*](https://www.loc.gov/collections/voices-remembering-slavery/). It is not affiliated with or endorsed by the Library. It was designed and built by Claude Opus 5.5, an AI model made by Anthropic, working with Stiles Lowe, who directed its design and editorial choices.
 
 ## What the site is
@@ -110,3 +112,7 @@ The Library of Congress states that it is unaware of any copyright or other rest
 > John Henry Faulk Recordings of Negro Religious Services (AFC 1941/016), American Folklife Center, Library of Congress
 
 The recordings contain period language, including slurs, reproduced as recorded. The notes on language explain why.
+
+## License
+
+The site's code (the pages, scripts and styles) is released under the [MIT License](LICENSE). The license does not cover the recordings or transcripts: those are the Library of Congress's, and the Library's own terms above apply.
