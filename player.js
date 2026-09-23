@@ -194,6 +194,12 @@
   };
   ['pointermove', 'keydown', 'touchstart'].forEach(ev => document.addEventListener(ev, wake, { passive: true }));
 
+  $('from-start').addEventListener('click', e => {
+    e.preventDefault();
+    loadPart(0, 0, false);
+    $('begin').click();
+  });
+
   $('begin').addEventListener('click', () => {
     intro.classList.add('is-gone');
     document.body.classList.add('started');
@@ -203,7 +209,10 @@
 
   // ---------- Load ----------
 
-  const id = new URLSearchParams(location.search).get('id');
+  const params = new URLSearchParams(location.search);
+  const id = params.get('id');
+  // ?t=<seconds> opens the interview at that moment, paused until the listener begins.
+  const startAt = Math.max(0, Number(params.get('t')) || 0);
   if (!id) { location.replace('index.html'); return; }
 
   fetch(`site-data/${encodeURIComponent(id)}.json`)
@@ -231,7 +240,15 @@
       } else {
         $('next').hidden = true;
       }
-      loadPart(0, 0, false);
+      if (startAt) {
+        const k = Math.max(0, parts.findIndex(p => startAt < p.offset + p.duration));
+        loadPart(k, startAt - parts[k].offset, false);
+        const side = parts.length > 1 ? `side ${k + 1}, ` : '';
+        $('begin').textContent = `Listen from ${side}${fmt(startAt - parts[k].offset)}`;
+        $('from-start').hidden = false;
+      } else {
+        loadPart(0, 0, false);
+      }
     })
     .catch(() => {
       $('intro-title').textContent = 'Interview not found';

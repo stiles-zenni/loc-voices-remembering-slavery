@@ -1,0 +1,193 @@
+{
+  "note": "Hand-written glossary. Counts come from library/glossary/candidates.json (all 60 transcripts in the collection). Each moment's `at` is the phrase start in seconds on the interview's continuous timeline; scripts/build-site.mjs adds side and time.",
+  "groups": [
+    {
+      "title": "Freedom and the end of slavery",
+      "entries": [
+        {
+          "id": "freedom",
+          "term": "free, freedom",
+          "variants": "“when freedom come,” “after freedom broke”",
+          "meta": "In ten interviews",
+          "body": [
+            "The plainest and most common way the speakers name the end of slavery. Most of them were children when it came, in 1865; the Thirteenth Amendment abolished slavery across the United States that December."
+          ],
+          "moments": [
+            { "session": "laura-smalley-1941", "at": 518.88, "quote": "Mama and them didn't know where to go, you see after freedom broke." },
+            { "session": "george-johnson-1941", "at": 676.2, "quote": "And when, freedom time come back, master Jeff come on home, you understand." },
+            { "session": "fountain-hughes-1949", "at": 810.48, "quote": "I remember one night, I was out after I, I was free," }
+          ]
+        },
+        {
+          "id": "break-up",
+          "term": "the break up",
+          "variants": "“the big break up”",
+          "meta": "Harriet Smith only · nine times",
+          "body": [
+            "Harriet Smith's phrase for the end of slavery: the breaking up of the slave system, and of the plantations, in 1865. She dates her life by it, and her interviewer, John Henry Faulk, takes the phrase up from her. It appears in no other interview in the collection."
+          ],
+          "moments": [
+            { "session": "harriet-smith-1941", "at": 32.88, "quote": "Well, I was about thirteen years old at the break up." }
+          ]
+        },
+        {
+          "id": "surrender",
+          "term": "the surrender",
+          "variants": "“after surrender”",
+          "meta": "Isom Moseley",
+          "body": [
+            "The surrender of the Confederate army under Robert E. Lee at Appomattox, Virginia, in April 1865, which in effect ended the Civil War. Isom Moseley uses it as many formerly enslaved people did: as the line between slavery and what came after."
+          ],
+          "moments": [
+            { "session": "isom-moseley-1941", "at": 331.72, "quote": "After the country surrendered, didn't none move, more move there after surrender." },
+            { "session": "isom-moseley-1941", "at": 376.14, "quote": "They got the third, I think they say, what they made, after surrender." }
+          ]
+        },
+        {
+          "id": "nineteenth-of-june",
+          "term": "the nineteenth of June",
+          "variants": "Juneteenth",
+          "meta": "Laura Smalley",
+          "body": [
+            "On June 19, 1865, Union troops reached Galveston and announced that the enslaved people of Texas were free, two and a half years after the Emancipation Proclamation. Laura Smalley remembers her enslaver coming home from the war and keeping them at work for months without telling them. The day became Juneteenth, celebrated in Texas from the following year and a federal holiday since 2021."
+          ],
+          "moments": [
+            { "session": "laura-smalley-1941", "at": 589.66, "quote": "And turn them loose on the nineteenth of June." },
+            { "session": "laura-smalley-1941", "at": 594.66, "quote": "That's why, you know, we celebrate that day." }
+          ]
+        },
+        {
+          "id": "yankees",
+          "term": "Yankees",
+          "variants": "“the soldiers”",
+          "meta": "In nine interviews",
+          "body": [
+            "Union soldiers. For the people in these recordings, the Yankees were the Northern army passing through, and often the first sign that slavery was ending. Alice Gaston remembers her father going away with them."
+          ],
+          "moments": [
+            { "session": "alice-gaston-1941", "at": 2.36, "quote": "I can remember when the Yankees come through" },
+            { "session": "alice-gaston-1941", "at": 45.15, "quote": "And my father, when my father left, he carried with the, he went away with the Yankees," },
+            { "session": "wallace-quarterman-1935", "at": 235.8, "quote": "But the Yankees saying we must go back to the South they'll help we." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Titles and forms of address",
+      "entries": [
+        {
+          "id": "master",
+          "term": "old master",
+          "variants": "“marster,” “master,” “young master”",
+          "meta": "138 times in fourteen interviews",
+          "body": [
+            "What enslaved people were made to call the man who claimed to own them. “Old master” usually meant the head of the family, as against his sons, the “young masters”; “marster” is the transcriber's spelling of how it was said. It is the most common title in the collection, still in use decades after freedom."
+          ],
+          "moments": [
+            { "session": "harriet-smith-1941", "at": 321.9, "quote": "All that I knowed they teach you is mind your master and your mistress." },
+            { "session": "george-johnson-1941", "at": 273.85, "quote": "Master Jeff had five plantations over there: Ursino, Brierfield, Hurricane, Palmyra and Lick Place." }
+          ]
+        },
+        {
+          "id": "mistress",
+          "term": "mistress",
+          "variants": "“old miss,” “missus”",
+          "meta": "In seven interviews",
+          "body": [
+            "The enslaver's wife, or the woman who ran the household. Enslaved children were taught to obey her as they obeyed the master."
+          ],
+          "moments": [
+            { "session": "laura-smalley-1941", "at": 1806.19, "quote": "and said old mistress looked out, and say's ah, “Don't you go out there.”" },
+            { "session": "alice-gaston-1941", "at": 17.94, "quote": "And I can remember when my missus used to run in the garden," }
+          ]
+        },
+        {
+          "id": "aunt-uncle",
+          "term": "“Aunt” and “Uncle”",
+          "variants": "“Aunt Harriet,” “Uncle Fountain”",
+          "meta": "56 times in eight interviews",
+          "body": [
+            "White Southerners commonly called older Black people “Aunt” and “Uncle” in place of “Mrs.” and “Mr.,” titles they kept for one another. The interviewers do it here, and the Library's catalogue titles follow them.",
+            "The speakers use the same words differently: for their own relatives and elders, like Harriet Smith's “Uncle Dave.” This edition lists everyone by their own name; each interview's opening page gives the Library's full title."
+          ],
+          "moments": [
+            { "session": "harriet-smith-1941", "at": 10, "speaker": "John Henry Faulk", "quote": "Well Aunt Harriet about how old are you?" },
+            { "session": "fountain-hughes-1949", "at": 43.99, "speaker": "Hermond Norwood", "quote": "You don't mind, do you, Uncle Fountain?" },
+            { "session": "harriet-smith-1941", "at": 956.13, "quote": "pa had a home, Uncle Dave a home." }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Slavery and its control",
+      "entries": [
+        {
+          "id": "overseer",
+          "term": "overseer, driver",
+          "variants": "",
+          "meta": "In six interviews",
+          "body": [
+            "The overseer was a man, usually white, hired to run the enslaved workforce and enforce the work, often with the whip. The driver was an enslaved man set over a work gang under the overseer, made to drive his own people."
+          ],
+          "moments": [
+            { "session": "harriet-smith-1941", "at": 858.09, "quote": "That was our uh, uh, over, overseer over the place there, you know." },
+            { "session": "laura-smalley-1941", "at": 888.14, "quote": "the ah, you know, the ah, overseer, you know, they whup you." }
+          ]
+        },
+        {
+          "id": "whup",
+          "term": "whup",
+          "variants": "“whip,” “whipping”",
+          "meta": "80 times in eight interviews",
+          "body": [
+            "How “whip” is said in these recordings. Whipping was the everyday punishment of slavery, used to force work and obedience, and it runs through these interviews, nearly always in the speakers' own accounts of what they saw or suffered."
+          ],
+          "moments": [
+            { "session": "george-johnson-1941", "at": 3870.57, "quote": "Say, “Mr. So-On-So whup me because I won't keep up with the gang." },
+            { "session": "harriet-smith-1941", "at": 343.21, "quote": "and I hear our folks talk you know, about them whipping you know," }
+          ]
+        },
+        {
+          "id": "block",
+          "term": "on the block",
+          "variants": "“the auction bench”",
+          "meta": "In three interviews",
+          "body": [
+            "The auction block: the platform where enslaved people were displayed and sold to the highest bidder, in sales that could part families for good."
+          ],
+          "moments": [
+            { "session": "charlie-smith-1975", "at": 440.5, "quote": "Put you on a stage, but well they called it a block." },
+            { "session": "fountain-hughes-1949", "at": 627.79, "quote": "Have a auction bench, and they'd put you on, up on the bench and bid on you" }
+          ]
+        },
+        {
+          "id": "pass",
+          "term": "a pass",
+          "variants": "",
+          "meta": "Fountain Hughes",
+          "body": [
+            "Enslaved people could not leave their enslaver's property without written permission. Fountain Hughes explains how it worked: one note to go, another to bring back, to show how long he had been gone. Anyone found without one could be stopped and punished."
+          ],
+          "moments": [
+            { "session": "fountain-hughes-1949", "at": 562.07, "quote": "Now I couldn't go from here across the street… without I have a note, or something from my master. And if I had that pass, that was what we call a pass," }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Language",
+      "entries": [
+        {
+          "id": "slur",
+          "term": "the slur",
+          "variants": "",
+          "meta": "81 times in eight interviews",
+          "body": [
+            "The n-word appears throughout the transcripts, almost always in the speakers' own voices, as the ordinary speech of their time and place. The Library of Congress's transcripts keep it, and so does this edition: the words are theirs, and changing them would change the record. It is not repeated here."
+          ],
+          "moments": []
+        }
+      ]
+    }
+  ]
+}

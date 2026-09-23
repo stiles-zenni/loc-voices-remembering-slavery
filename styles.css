@@ -502,3 +502,112 @@ body.contents-page { overflow: auto; background-attachment: fixed; }
 
 /* When the interview ends, clear the stage for the end card. */
 body.ended .stage { opacity: 0; }
+
+/* ---------- Glossary ---------- */
+
+.foreword a, .intro-note a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 0.2em; }
+.foreword a:hover { color: var(--ink); }
+
+.begin-row { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; }
+.from-start {
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-underline-offset: 0.3em;
+}
+.from-start[hidden] { display: none; }
+
+.gloss-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.4rem;
+  max-width: 44rem;
+  margin: 0 auto 4.5rem;
+  font-style: italic;
+  font-size: 1.02rem;
+}
+.gloss-index a { color: var(--ink-soft); text-decoration: none; transition: color 200ms; }
+.gloss-index a:hover { color: var(--ink); }
+
+.gloss-group { margin: 0 0 4.5rem; }
+.gloss-group-title {
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--hairline);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 9;
+}
+
+.gloss-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 17rem) minmax(0, 1fr);
+  gap: 1rem 3rem;
+  padding: 2.2rem 0 2.4rem;
+  border-bottom: 1px solid var(--hairline);
+  scroll-margin-top: 2rem;
+}
+.gloss-entry:target .gloss-term { color: var(--accent); }
+.gloss-head { display: flex; flex-direction: column; gap: 0.5rem; }
+.gloss-term {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 330;
+  line-height: 1.1;
+  transition: color 400ms;
+}
+.gloss-variants { margin: 0; font-style: italic; color: var(--ink-soft); }
+.gloss-meta {
+  margin: 0.3rem 0 0;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 9;
+}
+.gloss-body { font-size: clamp(1.02rem, 1.35vw, 1.14rem); line-height: 1.62; font-weight: 340; }
+.gloss-body > p { margin: 0 0 0.9em; max-width: 38em; }
+
+.gloss-moments { list-style: none; margin: 1.4rem 0 0; padding: 0; display: grid; gap: 0.35rem; }
+.moment {
+  display: grid;
+  grid-template-columns: 1.3rem 1fr;
+  gap: 0.15rem 0.4rem;
+  padding: 0.7rem 0.9rem 0.75rem 0.6rem;
+  border-radius: 6px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: background 220ms, color 220ms;
+}
+.moment:hover, .moment:focus-visible { background: rgba(255, 255, 255, 0.4); color: var(--ink); outline: none; }
+.moment-icon { grid-row: span 2; color: var(--accent); font-size: 0.85rem; line-height: 1.9; }
+.moment-where {
+  font-size: 0.66rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 9;
+}
+.moment-quote { font-style: italic; line-height: 1.45; }
+
+.conventions { margin: 1.4rem 0 0; display: grid; gap: 1.1rem; }
+.conventions > div { display: grid; grid-template-columns: minmax(0, 17rem) minmax(0, 1fr); gap: 0.4rem 3rem; align-items: baseline; }
+.conventions dt { font-size: 1.35rem; font-weight: 330; }
+.conventions dt .w { display: inline; }
+.conventions dt .w.note { font-size: 0.8em; vertical-align: 0; }
+.conv-speaker {
+  font-size: 0.8rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 9;
+}
+.conventions dd { margin: 0; line-height: 1.55; color: var(--ink-soft); }
+
+@media (max-width: 720px) {
+  .gloss-entry, .conventions > div { grid-template-columns: 1fr; gap: 0.8rem; }
+}

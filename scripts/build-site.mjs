@@ -3,8 +3,9 @@
 //
 //   node scripts/build-site.mjs
 //
-// Reads library/manifest.json, library/aligned/*.json and library/aligned/_report.json.
-// Writes site-data/index.json and site-data/<sessionId>.json.
+// Reads library/manifest.json, library/aligned/*.json, library/aligned/_report.json and
+// library/glossary/glossary.json. Writes site-data/index.json, site-data/<sessionId>.json
+// and site-data/glossary.json.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -80,5 +81,40 @@ contents.forEach((c, i) => {
   fs.writeFileSync(file, JSON.stringify(data));
 });
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(index, null, 1));
+
+// Glossary: add each moment's interview name, side and time, and check the quote
+// matches what the alignment has at that moment.
+const GLOSSARY = path.join(LIB, 'glossary', 'glossary.json');
+if (fs.existsSync(GLOSSARY)) {
+  const glossary = JSON.parse(fs.readFileSync(GLOSSARY, 'utf8'));
+  const cache = {};
+  const load = id => (cache[id] ??= JSON.parse(fs.readFileSync(path.join(OUT, `${id}.json`), 'utf8')));
+  const squash = s => s.toLowerCase().replace(/[^a-z]/g, '');
+  let problems = 0;
+  for (const g of glossary.groups) {
+    for (const e of g.entries) {
+      e.moments = e.moments.map(m => {
+        const s = load(m.session);
+        const ph = s.phrases.find(p => Math.abs(p.start - m.at) < 0.05);
+        const said = ph ? squash(ph.words.filter(w => !w.note).map(w => w.text).join(' ')) : '';
+        if (!ph || !said.includes(squash(m.quote).slice(0, 12))) {
+          problems++;
+          console.warn(`  glossary: "${e.term}" moment at ${m.at}s in ${m.session} doesn't match the transcript there`);
+        }
+        const part = s.partList[ph?.part ?? 0];
+        return {
+          ...m, name: s.name,
+          side: (ph?.part ?? 0) + 1, sides: s.partList.length,
+          sideTime: r2(m.at - part.offset),
+          // Start a moment early so the phrase has a lead-in.
+          start: r2(Math.max(0, m.at - 2)),
+        };
+      });
+    }
+  }
+  delete glossary.note;
+  fs.writeFileSync(path.join(OUT, 'glossary.json'), JSON.stringify(glossary));
+  console.log(`glossary: ${glossary.groups.reduce((n, g) => n + g.entries.length, 0)} entries${problems ? `, ${problems} moment(s) to check` : ''}`);
+}
 console.log(`wrote ${contents.length} interviews to ${path.relative(ROOT, OUT)}/`);
 for (const c of contents) console.log(`  ${c.numeral.padEnd(5)} ${c.name.padEnd(22)} ${Math.round(c.duration / 60)} min${c.approximate ? '  (approximate)' : ''}`);
