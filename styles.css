@@ -656,3 +656,70 @@ body.ended .stage { opacity: 0; }
 .t-text { margin: 0; font-size: clamp(1.02rem, 1.35vw, 1.14rem); line-height: 1.62; font-weight: 340; }
 .t-note { font-style: italic; font-size: 0.85em; color: var(--accent); }
 .t-guess { color: var(--ink-soft); }
+
+/* ---------- Intro card details (source, transcript, independence) ---------- */
+
+.intro-details {
+  display: grid;
+  gap: 1.15rem;
+  max-width: 36rem;
+  margin: 2.6rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  font-weight: 340;
+  color: var(--ink-soft);
+}
+.intro-details > div {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 0.2rem 1.2rem;
+  align-items: baseline;
+}
+.intro-details dt {
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-variation-settings: "SOFT" 50, "WONK" 0, "opsz" 9;
+}
+.intro-details dd { margin: 0; }
+.intro-details a { color: var(--ink); text-decoration-color: var(--accent); text-underline-offset: 0.2em; }
+.intro-details a:hover { color: var(--accent); }
+.detail-sub { display: block; margin-top: 0.35rem; font-size: 0.88em; font-style: italic; }
+.detail-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1.4rem; margin-top: 0.45rem; }
+.intro-independent {
+  margin: 0.4rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  opacity: 0.85;
+}
+
+/* Footers: the independence note reads as a sentence, not a label. */
+.colophon .independent {
+  text-transform: none;
+  letter-spacing: 0.01em;
+  font-size: 0.92rem;
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .intro-details > div { grid-template-columns: 1fr; }
+}
+/* The intro card can outgrow short screens; let it scroll rather than clip. */
+.intro { overflow-y: auto; }
+
+/* Longer lines read in sentence case; capitals stay for short labels only. */
+.entry-with, .intro-with, .t-with, .moment-where, .gloss-meta {
+  text-transform: none;
+  letter-spacing: 0.01em;
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+}
+.entry-with { font-size: 0.9rem; font-style: italic; }
+.entry-approx { font-size: 1em; }
+.intro-with { font-size: 1rem; }
+.t-with { font-size: 0.95rem; font-style: italic; }
+.moment-where { font-size: 0.8rem; color: var(--ink-soft); }
+.gloss-meta { font-size: 0.85rem; font-style: italic; }

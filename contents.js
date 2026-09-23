@@ -31,7 +31,7 @@
         const place = i.place.split(',').map(s => s.trim()).slice(-2).join(', ');
         li.querySelector('.entry-place').textContent = `${place}, ${i.date}`;
         li.querySelector('.entry-time').textContent = minutes(i.duration);
-        const withText = i.with.length > 2 ? `with ${i.with[0]} and others` : i.with.length ? `with ${i.with.join(' and ')}` : '';
+        const withText = i.with.length > 2 ? `With ${i.with[0]} and others` : i.with.length ? `With ${i.with.join(' and ')}` : '';
         const w = li.querySelector('.entry-with');
         w.textContent = withText;
         if (i.approximate) {
