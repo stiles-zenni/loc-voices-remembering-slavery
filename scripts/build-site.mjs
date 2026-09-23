@@ -223,7 +223,10 @@ ${body}
 ${sides}
     <footer class="colophon">
       <a href="../index.html">Contents</a> · <a href="../glossary.html">Notes on language</a>
-      <p class="independent">An independent edition, not affiliated with or endorsed by the Library of Congress.</p>
+    </footer>
+    <footer class="site-footer">
+      <p class="footer-integrity">The audio streams directly from the Library of Congress, unedited. The transcripts are the Library's own, with their wording unchanged.</p>
+      <p class="footer-meta">An independent edition, not affiliated with or endorsed by the Library of Congress.<span class="footer-built">Built by Claude Opus 5.5 · <a href="../about.html">How this was made</a></span></p>
     </footer>
   </main>
 </body>
@@ -237,7 +240,7 @@ console.log(`read: ${contents.length} transcript pages`);
 if (process.argv.includes('--dist')) {
   const DIST = path.join(ROOT, 'dist');
   fs.rmSync(DIST, { recursive: true, force: true });
-  const files = ['index.html', 'interview.html', 'glossary.html', 'contents.js', 'player.js', 'glossary.js', 'styles.css', 'favicon.svg'];
+  const files = ['index.html', 'interview.html', 'glossary.html', 'about.html', 'contents.js', 'player.js', 'glossary.js', 'styles.css', 'favicon.svg'];
   fs.mkdirSync(DIST, { recursive: true });
   for (const f of files) fs.copyFileSync(path.join(ROOT, f), path.join(DIST, f));
   for (const dir of ['site-data', 'read']) fs.cpSync(path.join(ROOT, dir), path.join(DIST, dir), { recursive: true });

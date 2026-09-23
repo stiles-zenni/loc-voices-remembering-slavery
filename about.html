@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How This Was Made · Visualizing Voices</title>
+  <meta name="description" content="How this edition of the Library of Congress's Voices Remembering Slavery interviews was made, and what it does and does not change.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How This Was Made · Visualizing Voices">
+  <meta property="og:description" content="How this edition was made, and what it does and does not change.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..500,0..100,0..1;1,9..144,300..500,0..100,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contents-page">
+  <div class="paper" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <span class="masthead-left"><a class="back" href="index.html">← Contents</a><span class="masthead-title">Visualizing Voices</span></span>
+    <span class="masthead-sub">From the collections of the Library of Congress</span>
+  </header>
+
+  <main class="book">
+    <header class="book-head">
+      <p class="intro-kicker">Colophon</p>
+      <h1 class="book-title">How This Was Made</h1>
+      <p class="book-subtitle">What this edition keeps, and what it changes</p>
+    </header>
+
+    <article class="about">
+      <section>
+        <h2 class="gloss-group-title">The recordings</h2>
+        <p>Every recording plays directly from the Library of Congress's own servers, as the Library publishes it. Nothing is edited, trimmed, filtered, enhanced or re-recorded. This edition presents twelve of the collection's interviews, 33 of its 60 recordings; the rest are harder to hear and will follow.</p>
+      </section>
+
+      <section>
+        <h2 class="gloss-group-title">The words</h2>
+        <p>The words on screen are the Library of Congress's published transcripts. Their wording is unchanged: no word is added, removed, corrected or reworded, including the language of the period.</p>
+        <p>What this edition changes is only how the text is presented:</p>
+        <ul class="about-list">
+          <li>The transcript is split into short phrases, so it can appear as it is spoken.</li>
+          <li>Speaker labels are made consistent where the transcript spells a name more than one way.</li>
+          <li>File headings that are not part of the conversation, such as tape numbers and “End of side A,” are left out.</li>
+          <li>The transcriber's marks are shown as styles: “???” appears as <span class="t-note">unclear</span>, and words marked “(?)” appear in <em>italics</em>.</li>
+          <li>Interviewees are listed by their own names. The Library's catalogue titles, some of which use “Aunt” and “Uncle,” appear in full on each interview's opening page; the <a href="glossary.html#aunt-uncle">notes on language</a> explain why.</li>
+        </ul>
+        <p>Each interview also has a <a href="read/laura-smalley-1941.html">full transcript page</a> showing the complete text.</p>
+      </section>
+
+      <section>
+        <h2 class="gloss-group-title">The timing</h2>
+        <p>The Library's transcripts do not say when each word is spoken, so the timing is estimated. Speech-recognition software (OpenAI's Whisper models, run with whisper.cpp) listened to each recording, and its words were matched against the Library's transcript. The software's own transcription is used only to find the timing and is never shown.</p>
+        <p>About two thirds of the words were matched directly; the rest are spaced evenly between them. On a few recordings that are hard to hear, the words can drift from the voice; those are marked <em class="entry-approx">sync approximate</em>.</p>
+      </section>
+
+      <section>
+        <h2 class="gloss-group-title">The notes</h2>
+        <p>The <a href="glossary.html">notes on language</a> were written for this edition. They draw on the recordings themselves and on standard history, and they are not the Library's. Any errors in them are this edition's, not the Library's or the speakers'.</p>
+      </section>
+
+      <section>
+        <h2 class="gloss-group-title">Who made it</h2>
+        <p>Designed and built by Claude Opus 5.5, an AI model made by Anthropic, working with Stiles Lowe, who directed its design and editorial choices. It is an independent edition, not affiliated with or endorsed by the Library of Congress.</p>
+        <p>The recordings and transcripts are from the American Folklife Center at the Library of Congress, which is unaware of any copyright or other restrictions on the collection. Each interview credits its source collection. The site's code is on <a href="https://github.com/stiles-zenni/loc-voices-remembering-slavery">GitHub</a>.</p>
+      </section>
+    </article>
+
+    <footer class="site-footer">
+      <p class="footer-integrity">The audio streams directly from the Library of Congress, unedited. The transcripts are the Library's own, with their wording unchanged.</p>
+      <p class="footer-meta">An independent edition, not affiliated with or endorsed by the Library of Congress.<span class="footer-built">Built by Claude Opus 5.5 · <a href="about.html">How this was made</a></span></p>
+    </footer>
+  </main>
+</body>
+</html>

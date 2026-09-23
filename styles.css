@@ -723,3 +723,31 @@ body.ended .stage { opacity: 0; }
 .t-with { font-size: 0.95rem; font-style: italic; }
 .moment-where { font-size: 0.8rem; color: var(--ink-soft); }
 .gloss-meta { font-size: 0.85rem; font-style: italic; }
+
+/* ---------- Site footer: integrity, independence, credit ---------- */
+
+.site-footer {
+  max-width: 40rem;
+  margin: 3rem auto 0;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--hairline);
+  text-align: center;
+  color: var(--ink-soft);
+}
+.site-footer p { margin: 0 0 0.7rem; }
+.footer-integrity { font-size: 1rem; line-height: 1.55; color: var(--ink); opacity: 0.8; }
+.footer-meta { font-size: 0.85rem; font-style: italic; line-height: 1.6; }
+.footer-built { display: block; margin-top: 0.3rem; font-style: normal; }
+.site-footer a, .intro-independent a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 0.2em; }
+.site-footer a:hover, .intro-independent a:hover { color: var(--ink); }
+.intro-independent p { margin: 0 0 0.4rem; }
+.intro-independent p:first-child { font-style: normal; color: var(--ink); opacity: 0.8; }
+
+.about { max-width: 38rem; margin: 0 auto; font-size: clamp(1.02rem, 1.35vw, 1.14rem); line-height: 1.65; font-weight: 340; }
+.about section { margin: 0 0 3rem; }
+.about .gloss-group-title { margin-bottom: 1.2rem; }
+.about p { margin: 0 0 1em; }
+.about a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 0.2em; }
+.about-list { margin: 0 0 1em; padding-left: 1.2em; }
+.about-list li { margin: 0 0 0.6em; }
+.about-list li::marker { color: var(--accent); }
